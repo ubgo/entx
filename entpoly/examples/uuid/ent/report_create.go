@@ -11,7 +11,7 @@ import (
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
-	"github.com/khanakia/entx/entpoly/examples/uuid/ent/report"
+	"github.com/ubgo/entx/entpoly/examples/uuid/ent/report"
 )
 
 // ReportCreate is the builder for creating a Report entity.

@@ -3,9 +3,9 @@
 package gen
 
 import (
-	"github.com/khanakia/entx/testenttui/ent"
+	"github.com/ubgo/entx/testenttui/ent"
 
-	"github.com/khanakia/entx/enttui/runtime"
+	"github.com/ubgo/entx/enttui/runtime"
 )
 
 // RegisterAll wires every browsable entity into the enttui runtime.

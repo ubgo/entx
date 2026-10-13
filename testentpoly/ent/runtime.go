@@ -6,14 +6,14 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/khanakia/entx/testentpoly/ent/annotation"
-	"github.com/khanakia/entx/testentpoly/ent/document"
-	"github.com/khanakia/entx/testentpoly/ent/image"
-	"github.com/khanakia/entx/testentpoly/ent/post"
-	"github.com/khanakia/entx/testentpoly/ent/report"
-	"github.com/khanakia/entx/testentpoly/ent/taggable"
-	"github.com/khanakia/entx/testentpoly/ent/video"
-	"github.com/khanakia/entx/testentpoly/schema"
+	"github.com/ubgo/entx/testentpoly/ent/annotation"
+	"github.com/ubgo/entx/testentpoly/ent/document"
+	"github.com/ubgo/entx/testentpoly/ent/image"
+	"github.com/ubgo/entx/testentpoly/ent/post"
+	"github.com/ubgo/entx/testentpoly/ent/report"
+	"github.com/ubgo/entx/testentpoly/ent/taggable"
+	"github.com/ubgo/entx/testentpoly/ent/video"
+	"github.com/ubgo/entx/testentpoly/schema"
 )
 
 // The init function reads all schema descriptors with runtime code

@@ -5,7 +5,7 @@ import (
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
 
-	"github.com/khanakia/entx/entpoly"
+	"github.com/ubgo/entx/entpoly"
 )
 
 // Annotation is the polymorphic child — points at any Document or

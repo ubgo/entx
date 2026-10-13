@@ -6,10 +6,10 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/khanakia/entx/entpoly/examples/uuid/ent/annotation"
-	"github.com/khanakia/entx/entpoly/examples/uuid/ent/document"
-	"github.com/khanakia/entx/entpoly/examples/uuid/ent/report"
-	"github.com/khanakia/entx/entpoly/examples/uuid/schema"
+	"github.com/ubgo/entx/entpoly/examples/uuid/ent/annotation"
+	"github.com/ubgo/entx/entpoly/examples/uuid/ent/document"
+	"github.com/ubgo/entx/entpoly/examples/uuid/ent/report"
+	"github.com/ubgo/entx/entpoly/examples/uuid/schema"
 )
 
 // The init function reads all schema descriptors with runtime code

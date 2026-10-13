@@ -9,7 +9,7 @@ import (
 
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/entpoly/examples/morphstring/ent/image"
+	"github.com/ubgo/entx/entpoly/examples/morphstring/ent/image"
 )
 
 // ImageCreate is the builder for creating a Image entity.

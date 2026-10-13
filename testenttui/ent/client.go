@@ -10,16 +10,16 @@ import (
 	"reflect"
 
 	"github.com/google/uuid"
-	"github.com/khanakia/entx/testenttui/ent/migrate"
+	"github.com/ubgo/entx/testenttui/ent/migrate"
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
-	"github.com/khanakia/entx/testenttui/ent/comment"
-	"github.com/khanakia/entx/testenttui/ent/post"
-	"github.com/khanakia/entx/testenttui/ent/tag"
-	"github.com/khanakia/entx/testenttui/ent/user"
+	"github.com/ubgo/entx/testenttui/ent/comment"
+	"github.com/ubgo/entx/testenttui/ent/post"
+	"github.com/ubgo/entx/testenttui/ent/tag"
+	"github.com/ubgo/entx/testenttui/ent/user"
 )
 
 // Client is the client that holds all ent builders.

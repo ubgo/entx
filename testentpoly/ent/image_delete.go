@@ -8,8 +8,8 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/testentpoly/ent/image"
-	"github.com/khanakia/entx/testentpoly/ent/predicate"
+	"github.com/ubgo/entx/testentpoly/ent/image"
+	"github.com/ubgo/entx/testentpoly/ent/predicate"
 )
 
 // ImageDelete is the builder for deleting a Image entity.

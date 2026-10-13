@@ -7,7 +7,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/khanakia/entx/testentpoly/ent"
+	"github.com/ubgo/entx/testentpoly/ent"
 )
 
 // TestSelfReferential_Folder — scenario 11.

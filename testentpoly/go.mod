@@ -1,14 +1,14 @@
-module github.com/khanakia/entx/testentpoly
+module github.com/ubgo/entx/testentpoly
 
 go 1.26.1
 
-replace github.com/khanakia/entx/entpoly => ../entpoly
+replace github.com/ubgo/entx/entpoly => ../entpoly
 
 require (
 	entgo.io/ent v0.14.6
 	github.com/99designs/gqlgen v0.17.90
 	github.com/google/uuid v1.6.0
-	github.com/khanakia/entx/entpoly v0.0.0-00010101000000-000000000000
+	github.com/ubgo/entx/entpoly v0.0.0-00010101000000-000000000000
 	github.com/vektah/gqlparser/v2 v2.5.33
 	modernc.org/sqlite v1.50.1
 )

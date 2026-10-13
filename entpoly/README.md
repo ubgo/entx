@@ -2,7 +2,7 @@
 
 > **Laravel-style polymorphic relationships for the ent ORM in Go.** Adds `MorphTo`, `MorphOne`, `MorphMany`, and `MorphedByMany` to your ent schemas, with compile-time type safety, a DB-enforced type enum, runtime hooks (`Required` / `Touch` / `Cascade` / `SoftDelete`), and an optional GraphQL union surface for [gqlgen](https://gqlgen.com).
 
-`go get github.com/khanakia/entx/entpoly`
+`go get github.com/ubgo/entx/entpoly`
 
 [Quickstart](#quickstart) · [Install](#install) · [How do I…](#how-do-i) · [Docs](#documentation-map) · [Laravel parity](./docs/laravel-parity.md) · [FAQ](#faq)
 
@@ -47,7 +47,7 @@ func (Comment) Edges() []ent.Edge {
 ```
 
 ```bash
-go get github.com/khanakia/entx/entpoly
+go get github.com/ubgo/entx/entpoly
 go generate ./ent
 ```
 
@@ -69,7 +69,7 @@ post.QueryComments().Where(comment.ApprovedEQ(true)).All(ctx)
 ## Install
 
 ```bash
-go get github.com/khanakia/entx/entpoly
+go get github.com/ubgo/entx/entpoly
 ```
 
 Register in `ent/entc.go`:

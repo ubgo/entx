@@ -11,10 +11,10 @@ import (
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
-	"github.com/khanakia/entx/testenttui/ent/comment"
-	"github.com/khanakia/entx/testenttui/ent/post"
-	"github.com/khanakia/entx/testenttui/ent/tag"
-	"github.com/khanakia/entx/testenttui/ent/user"
+	"github.com/ubgo/entx/testenttui/ent/comment"
+	"github.com/ubgo/entx/testenttui/ent/post"
+	"github.com/ubgo/entx/testenttui/ent/tag"
+	"github.com/ubgo/entx/testenttui/ent/user"
 )
 
 // PostCreate is the builder for creating a Post entity.

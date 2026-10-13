@@ -8,10 +8,10 @@ import (
 	"strconv"
 
 	"github.com/google/uuid"
-	"github.com/khanakia/entx/entpoly/examples/uuid/ent/annotation"
-	"github.com/khanakia/entx/entpoly/examples/uuid/ent/document"
-	"github.com/khanakia/entx/entpoly/examples/uuid/ent/predicate"
-	"github.com/khanakia/entx/entpoly/examples/uuid/ent/report"
+	"github.com/ubgo/entx/entpoly/examples/uuid/ent/annotation"
+	"github.com/ubgo/entx/entpoly/examples/uuid/ent/document"
+	"github.com/ubgo/entx/entpoly/examples/uuid/ent/predicate"
+	"github.com/ubgo/entx/entpoly/examples/uuid/ent/report"
 )
 
 // Compile-time silence in case strconv is never referenced (rare — only

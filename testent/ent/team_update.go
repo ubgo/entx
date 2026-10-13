@@ -10,11 +10,11 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/testent/ent/auditlog"
-	"github.com/khanakia/entx/testent/ent/member"
-	"github.com/khanakia/entx/testent/ent/predicate"
-	"github.com/khanakia/entx/testent/ent/team"
-	"github.com/khanakia/entx/testent/ent/user"
+	"github.com/ubgo/entx/testent/ent/auditlog"
+	"github.com/ubgo/entx/testent/ent/member"
+	"github.com/ubgo/entx/testent/ent/predicate"
+	"github.com/ubgo/entx/testent/ent/team"
+	"github.com/ubgo/entx/testent/ent/user"
 )
 
 // TeamUpdate is the builder for updating Team entities.

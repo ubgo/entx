@@ -5,7 +5,7 @@ package post
 import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
-	"github.com/khanakia/entx/testentgqlmulti/ent/predicate"
+	"github.com/ubgo/entx/testentgqlmulti/ent/predicate"
 )
 
 // ID filters vertices based on their ID field.

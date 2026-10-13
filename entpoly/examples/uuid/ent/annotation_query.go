@@ -12,8 +12,8 @@ import (
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
-	"github.com/khanakia/entx/entpoly/examples/uuid/ent/annotation"
-	"github.com/khanakia/entx/entpoly/examples/uuid/ent/predicate"
+	"github.com/ubgo/entx/entpoly/examples/uuid/ent/annotation"
+	"github.com/ubgo/entx/entpoly/examples/uuid/ent/predicate"
 )
 
 // AnnotationQuery is the builder for querying Annotation entities.

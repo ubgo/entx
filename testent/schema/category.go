@@ -5,7 +5,7 @@ import (
 	"entgo.io/ent/schema"
 	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/entcascade"
+	"github.com/ubgo/entx/entcascade"
 )
 
 // Category tests WithUnlink: deleting a category clears the FK on posts

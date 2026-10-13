@@ -9,7 +9,7 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/entpoly/examples/basic/ent/video"
+	"github.com/ubgo/entx/entpoly/examples/basic/ent/video"
 )
 
 // Video is the model entity for the Video schema.

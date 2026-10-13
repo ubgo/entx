@@ -12,11 +12,11 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"github.com/google/uuid"
-	"github.com/khanakia/entx/testenttui/ent/comment"
-	"github.com/khanakia/entx/testenttui/ent/post"
-	"github.com/khanakia/entx/testenttui/ent/predicate"
-	"github.com/khanakia/entx/testenttui/ent/tag"
-	"github.com/khanakia/entx/testenttui/ent/user"
+	"github.com/ubgo/entx/testenttui/ent/comment"
+	"github.com/ubgo/entx/testenttui/ent/post"
+	"github.com/ubgo/entx/testenttui/ent/predicate"
+	"github.com/ubgo/entx/testenttui/ent/tag"
+	"github.com/ubgo/entx/testenttui/ent/user"
 )
 
 const (

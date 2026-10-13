@@ -9,7 +9,7 @@ import (
 
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/entpoly/examples/basic/ent/taggable"
+	"github.com/ubgo/entx/entpoly/examples/basic/ent/taggable"
 )
 
 // TaggableCreate is the builder for creating a Taggable entity.

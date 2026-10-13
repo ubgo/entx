@@ -11,13 +11,13 @@ This guide walks through adding `entpoly` to a fresh ent project. By the end you
 ## Install
 
 ```bash
-go get github.com/khanakia/entx/entpoly
+go get github.com/ubgo/entx/entpoly
 ```
 
 If you plan to use the runtime set-diff helpers for M2M relationships (Laravel-style `attach` / `detach` / `sync` / `toggle`):
 
 ```bash
-go get github.com/khanakia/entx/entpoly/helper
+go get github.com/ubgo/entx/entpoly/helper
 ```
 
 ## Declare the child schema
@@ -35,7 +35,7 @@ import (
     "entgo.io/ent"
     "entgo.io/ent/schema/field"
 
-    "github.com/khanakia/entx/entpoly"
+    "github.com/ubgo/entx/entpoly"
 )
 
 type Comment struct{ ent.Schema }
@@ -96,7 +96,7 @@ import (
     "entgo.io/ent"
     "entgo.io/ent/schema/field"
 
-    "github.com/khanakia/entx/entpoly"
+    "github.com/ubgo/entx/entpoly"
 )
 
 type Post struct{ ent.Schema }
@@ -135,7 +135,7 @@ import (
     "entgo.io/ent/entc"
     "entgo.io/ent/entc/gen"
 
-    "github.com/khanakia/entx/entpoly"
+    "github.com/ubgo/entx/entpoly"
 )
 
 func main() {

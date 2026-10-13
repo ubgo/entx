@@ -1,13 +1,13 @@
 # entreadonly
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/khanakia/entx/entreadonly.svg)](https://pkg.go.dev/github.com/khanakia/entx/entreadonly)
+[![Go Reference](https://pkg.go.dev/badge/github.com/ubgo/entx/entreadonly.svg)](https://pkg.go.dev/github.com/ubgo/entx/entreadonly)
 [![Go 1.26+](https://img.shields.io/badge/go-1.26%2B-00ADD8)](https://go.dev)
 [![ent v0.14.x](https://img.shields.io/badge/ent-v0.14.x-7e3aed)](https://entgo.io)
 
 **Make an [ent](https://entgo.io) schema read-only at code-generation time.** `entreadonly` strips the `Create` / `Update` / `Delete` builders and client write methods for any annotated entity, so writing it **fails to compile** — not at runtime. The schema stays a normal table: queries, edges, and GraphQL ([entgql](https://entgo.io/docs/graphql)) are fully intact.
 
 ```bash
-go get github.com/khanakia/entx/entreadonly
+go get github.com/ubgo/entx/entreadonly
 ```
 
 ## What & why
@@ -99,7 +99,7 @@ One annotation turns "we *trust* nobody writes the foreign table" into "the comp
 import (
 	"entgo.io/ent"
 	"entgo.io/ent/schema"
-	"github.com/khanakia/entx/entreadonly"
+	"github.com/ubgo/entx/entreadonly"
 )
 
 func (User) Annotations() []schema.Annotation {
@@ -112,7 +112,7 @@ func (User) Annotations() []schema.Annotation {
 **2. Register the extension in your code-gen entry point:**
 
 ```go
-import "github.com/khanakia/entx/entreadonly"
+import "github.com/ubgo/entx/entreadonly"
 
 err := entc.Generate("./schema", &gen.Config{
 	Target:  "./ent",
@@ -231,6 +231,6 @@ Add `entreadonly.ReadOnly()` to its `Annotations()`. Nothing else — the extens
 
 Apache-2.0 — see [`LICENSE`](../LICENSE).
 
-Part of the [entx](https://github.com/khanakia/entx) toolkit for the ent ORM.
+Part of the [entx](https://github.com/ubgo/entx) toolkit for the ent ORM.
 
 <sub>Keywords: ent ORM read-only entity, entgo disable create update delete, compile-time read-only ent schema, ent immutable model Go, prevent ent mutations, ent projection table, ent codegen strip builders, entgo read-only without ent.View, ent multi-module identity table.</sub>

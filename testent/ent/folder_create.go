@@ -9,9 +9,9 @@ import (
 
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/testent/ent/channel"
-	"github.com/khanakia/entx/testent/ent/folder"
-	"github.com/khanakia/entx/testent/ent/workspace"
+	"github.com/ubgo/entx/testent/ent/channel"
+	"github.com/ubgo/entx/testent/ent/folder"
+	"github.com/ubgo/entx/testent/ent/workspace"
 )
 
 // FolderCreate is the builder for creating a Folder entity.

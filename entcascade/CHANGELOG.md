@@ -79,5 +79,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   `WithSoftDelete`, `WithHardDelete`, auto-detection of `deleted_at`,
   M2M through-tables, and pre/post hooks inside the transaction.
 
-[Unreleased]: https://github.com/khanakia/entx/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/khanakia/entx/releases/tag/v0.1.0
+[Unreleased]: https://github.com/ubgo/entx/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/ubgo/entx/releases/tag/v0.1.0

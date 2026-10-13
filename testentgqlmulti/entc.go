@@ -8,7 +8,7 @@ import (
 	"entgo.io/contrib/entgql"
 	"entgo.io/ent/entc"
 	"entgo.io/ent/entc/gen"
-	"github.com/khanakia/entx/entgqlmulti"
+	"github.com/ubgo/entx/entgqlmulti"
 )
 
 func main() {
@@ -20,7 +20,7 @@ func main() {
 		entgql.WithSchemaPath("./ent.graphql"),
 		entgql.WithSchemaHook(
 			entgqlmulti.New(
-				entgqlmulti.WithEntPackage("github.com/khanakia/entx/testentgqlmulti/ent"),
+				entgqlmulti.WithEntPackage("github.com/ubgo/entx/testentgqlmulti/ent"),
 				entgqlmulti.WithDefaultAPI("apidash"),
 				entgqlmulti.WithAPIOutputPath("apidash", "./api/apidash/schema.graphql"),
 				entgqlmulti.WithAPIOutputPath("apipub", "./api/apipub/schema.graphql"),
@@ -34,7 +34,7 @@ func main() {
 
 	config := &gen.Config{
 		Target:  "./ent",
-		Package: "github.com/khanakia/entx/testentgqlmulti/ent",
+		Package: "github.com/ubgo/entx/testentgqlmulti/ent",
 		Features: []gen.Feature{
 			gen.FeatureExecQuery,
 		},

@@ -5,7 +5,7 @@ package ent
 import (
 	"time"
 
-	"github.com/khanakia/entx/testentgqlmulti/ent/user"
+	"github.com/ubgo/entx/testentgqlmulti/ent/user"
 )
 
 // CreateChatbotInput represents a mutation input for creating chatbots.

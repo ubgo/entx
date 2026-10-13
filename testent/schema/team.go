@@ -5,7 +5,7 @@ import (
 	"entgo.io/ent/schema"
 	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/entcascade"
+	"github.com/ubgo/entx/entcascade"
 )
 
 // Team exercises SkipEdges on a real O2M edge (audit_logs). Deleting a

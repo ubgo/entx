@@ -10,9 +10,9 @@ import (
 
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/testenttui/ent/comment"
-	"github.com/khanakia/entx/testenttui/ent/post"
-	"github.com/khanakia/entx/testenttui/ent/user"
+	"github.com/ubgo/entx/testenttui/ent/comment"
+	"github.com/ubgo/entx/testenttui/ent/post"
+	"github.com/ubgo/entx/testenttui/ent/user"
 )
 
 // CommentCreate is the builder for creating a Comment entity.

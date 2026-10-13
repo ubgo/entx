@@ -11,12 +11,12 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/testentgqlmulti/ent/chatbot"
-	"github.com/khanakia/entx/testentgqlmulti/ent/post"
-	"github.com/khanakia/entx/testentgqlmulti/ent/predicate"
-	"github.com/khanakia/entx/testentgqlmulti/ent/secret"
-	"github.com/khanakia/entx/testentgqlmulti/ent/tag"
-	"github.com/khanakia/entx/testentgqlmulti/ent/user"
+	"github.com/ubgo/entx/testentgqlmulti/ent/chatbot"
+	"github.com/ubgo/entx/testentgqlmulti/ent/post"
+	"github.com/ubgo/entx/testentgqlmulti/ent/predicate"
+	"github.com/ubgo/entx/testentgqlmulti/ent/secret"
+	"github.com/ubgo/entx/testentgqlmulti/ent/tag"
+	"github.com/ubgo/entx/testentgqlmulti/ent/user"
 )
 
 const (

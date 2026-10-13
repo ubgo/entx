@@ -1,10 +1,10 @@
-module github.com/khanakia/entx/testentgqlmulti
+module github.com/ubgo/entx/testentgqlmulti
 
 go 1.26.1
 
 replace (
-	github.com/khanakia/entx/entcascade => ../entcascade
-	github.com/khanakia/entx/entgqlmulti => ../entgqlmulti
+	github.com/ubgo/entx/entcascade => ../entcascade
+	github.com/ubgo/entx/entgqlmulti => ../entgqlmulti
 )
 
 require (
@@ -12,7 +12,7 @@ require (
 	entgo.io/ent v0.14.6
 	github.com/99designs/gqlgen v0.17.90
 	github.com/hashicorp/go-multierror v1.1.1
-	github.com/khanakia/entx/entgqlmulti v0.0.0-00010101000000-000000000000
+	github.com/ubgo/entx/entgqlmulti v0.0.0-00010101000000-000000000000
 	github.com/vektah/gqlparser/v2 v2.5.33
 	golang.org/x/sync v0.20.0
 	modernc.org/sqlite v1.50.1

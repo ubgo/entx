@@ -17,7 +17,7 @@ resolver:
   filename_template: "{name}.resolvers.go"
 
 autobind:
-  - "github.com/khanakia/entx/testentgqlmulti/ent"
+  - "github.com/ubgo/entx/testentgqlmulti/ent"
 
 models:
   ID:
@@ -26,6 +26,6 @@ models:
       - github.com/99designs/gqlgen/graphql.Int
   Node:
     model:
-      - github.com/khanakia/entx/testentgqlmulti/ent.Noder
+      - github.com/ubgo/entx/testentgqlmulti/ent.Noder
   Cursor:
-    model: github.com/khanakia/entx/testentgqlmulti/ent.Cursor
+    model: github.com/ubgo/entx/testentgqlmulti/ent.Cursor

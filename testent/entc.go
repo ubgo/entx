@@ -7,13 +7,13 @@ import (
 
 	"entgo.io/ent/entc"
 	"entgo.io/ent/entc/gen"
-	"github.com/khanakia/entx/entcascade"
+	"github.com/ubgo/entx/entcascade"
 )
 
 func main() {
 	config := &gen.Config{
 		Target:  "./ent",
-		Package: "github.com/khanakia/entx/testent/ent",
+		Package: "github.com/ubgo/entx/testent/ent",
 	}
 	opts := []entc.Option{
 		entc.Extensions(

@@ -8,8 +8,8 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/testent/ent/team"
-	"github.com/khanakia/entx/testent/ent/user"
+	"github.com/ubgo/entx/testent/ent/team"
+	"github.com/ubgo/entx/testent/ent/user"
 )
 
 // Team is the model entity for the Team schema.

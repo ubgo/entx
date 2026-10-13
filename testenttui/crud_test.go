@@ -9,9 +9,9 @@ import (
 	"github.com/google/uuid"
 	_ "modernc.org/sqlite"
 
-	"github.com/khanakia/entx/enttui/runtime"
-	"github.com/khanakia/entx/testenttui/ent"
-	"github.com/khanakia/entx/testenttui/tui/gen"
+	"github.com/ubgo/entx/enttui/runtime"
+	"github.com/ubgo/entx/testenttui/ent"
+	"github.com/ubgo/entx/testenttui/tui/gen"
 )
 
 // TestRegisterAndCRUDAcrossIDTypes is an end-to-end check that the

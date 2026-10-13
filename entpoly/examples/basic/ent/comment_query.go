@@ -11,8 +11,8 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/entpoly/examples/basic/ent/comment"
-	"github.com/khanakia/entx/entpoly/examples/basic/ent/predicate"
+	"github.com/ubgo/entx/entpoly/examples/basic/ent/comment"
+	"github.com/ubgo/entx/entpoly/examples/basic/ent/predicate"
 )
 
 // CommentQuery is the builder for querying Comment entities.

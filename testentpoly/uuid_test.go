@@ -8,7 +8,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/khanakia/entx/testentpoly/ent"
+	"github.com/ubgo/entx/testentpoly/ent"
 )
 
 // TestUUID_FullRoundTrip — scenario 10.

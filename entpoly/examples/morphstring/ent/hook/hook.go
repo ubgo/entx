@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/khanakia/entx/entpoly/examples/morphstring/ent"
+	"github.com/ubgo/entx/entpoly/examples/morphstring/ent"
 )
 
 // The BookmarkFunc type is an adapter to allow the use of ordinary

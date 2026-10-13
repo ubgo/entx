@@ -11,8 +11,8 @@ import (
 	entsql "entgo.io/ent/dialect/sql"
 	"github.com/99designs/gqlgen/graphql/handler"
 
-	"github.com/khanakia/entx/testentpoly/api/gql"
-	"github.com/khanakia/entx/testentpoly/ent"
+	"github.com/ubgo/entx/testentpoly/api/gql"
+	"github.com/ubgo/entx/testentpoly/ent"
 
 	_ "modernc.org/sqlite"
 )

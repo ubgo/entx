@@ -11,8 +11,8 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/testentpoly/ent/predicate"
-	"github.com/khanakia/entx/testentpoly/ent/tag"
+	"github.com/ubgo/entx/testentpoly/ent/predicate"
+	"github.com/ubgo/entx/testentpoly/ent/tag"
 )
 
 // TagQuery is the builder for querying Tag entities.

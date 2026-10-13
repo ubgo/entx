@@ -9,9 +9,9 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/testenttui/ent/comment"
-	"github.com/khanakia/entx/testenttui/ent/post"
-	"github.com/khanakia/entx/testenttui/ent/user"
+	"github.com/ubgo/entx/testenttui/ent/comment"
+	"github.com/ubgo/entx/testenttui/ent/post"
+	"github.com/ubgo/entx/testenttui/ent/user"
 )
 
 // Comment is the model entity for the Comment schema.

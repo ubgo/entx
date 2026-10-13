@@ -8,7 +8,7 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/entpoly/examples/morphstring/ent/sourcelink"
+	"github.com/ubgo/entx/entpoly/examples/morphstring/ent/sourcelink"
 )
 
 // SourceLink is the model entity for the SourceLink schema.

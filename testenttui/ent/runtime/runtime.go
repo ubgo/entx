@@ -2,7 +2,7 @@
 
 package runtime
 
-// The schema-stitching logic is generated in github.com/khanakia/entx/testenttui/ent/runtime.go
+// The schema-stitching logic is generated in github.com/ubgo/entx/testenttui/ent/runtime.go
 
 const (
 	Version = "v0.14.6"                                         // Version of ent codegen.

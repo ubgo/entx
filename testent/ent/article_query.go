@@ -12,9 +12,9 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/testent/ent/article"
-	"github.com/khanakia/entx/testent/ent/predicate"
-	"github.com/khanakia/entx/testent/ent/revision"
+	"github.com/ubgo/entx/testent/ent/article"
+	"github.com/ubgo/entx/testent/ent/predicate"
+	"github.com/ubgo/entx/testent/ent/revision"
 )
 
 // ArticleQuery is the builder for querying Article entities.

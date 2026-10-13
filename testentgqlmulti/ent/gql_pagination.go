@@ -14,10 +14,10 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/errcode"
-	"github.com/khanakia/entx/testentgqlmulti/ent/chatbot"
-	"github.com/khanakia/entx/testentgqlmulti/ent/post"
-	"github.com/khanakia/entx/testentgqlmulti/ent/tag"
-	"github.com/khanakia/entx/testentgqlmulti/ent/user"
+	"github.com/ubgo/entx/testentgqlmulti/ent/chatbot"
+	"github.com/ubgo/entx/testentgqlmulti/ent/post"
+	"github.com/ubgo/entx/testentgqlmulti/ent/tag"
+	"github.com/ubgo/entx/testentgqlmulti/ent/user"
 	"github.com/vektah/gqlparser/v2/gqlerror"
 )
 

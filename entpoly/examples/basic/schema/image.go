@@ -4,7 +4,7 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/schema/field"
 
-	"github.com/khanakia/entx/entpoly"
+	"github.com/ubgo/entx/entpoly"
 )
 
 // Image demonstrates the one-to-one polymorphic shape: any imageable

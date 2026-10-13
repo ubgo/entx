@@ -62,5 +62,5 @@ plus unit tests inside `entpoly/`.
 - `.gitignore` covers the `serve` binary the standalone GraphQL server
   builds locally; an accidentally-committed copy was removed.
 
-[Unreleased]: https://github.com/khanakia/entx/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/khanakia/entx/releases/tag/v0.1.0
+[Unreleased]: https://github.com/ubgo/entx/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/ubgo/entx/releases/tag/v0.1.0

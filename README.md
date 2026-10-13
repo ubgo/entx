@@ -16,12 +16,12 @@ Extensions for [ent](https://entgo.io) — the Go entity framework.
 ## Installation
 
 ```bash
-go get github.com/khanakia/entx/entcascade
-go get github.com/khanakia/entx/entgqlmulti
-go get github.com/khanakia/entx/entpoly
-go get github.com/khanakia/entx/entreadonly
-go get github.com/khanakia/entx/entskiptable
-go get github.com/khanakia/entx/enttui
+go get github.com/ubgo/entx/entcascade
+go get github.com/ubgo/entx/entgqlmulti
+go get github.com/ubgo/entx/entpoly
+go get github.com/ubgo/entx/entreadonly
+go get github.com/ubgo/entx/entskiptable
+go get github.com/ubgo/entx/enttui
 ```
 
 Each package is a standalone Go module — install only what you need.

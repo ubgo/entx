@@ -9,7 +9,7 @@ import (
 	"context"
 
 	"entgo.io/contrib/entgql"
-	"github.com/khanakia/entx/testentgqlmulti/ent"
+	"github.com/ubgo/entx/testentgqlmulti/ent"
 )
 
 // PublicChatbots is the resolver for the publicChatbots field.

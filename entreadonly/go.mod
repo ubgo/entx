@@ -1,4 +1,4 @@
-module github.com/khanakia/entx/entreadonly
+module github.com/ubgo/entx/entreadonly
 
 go 1.26.1
 

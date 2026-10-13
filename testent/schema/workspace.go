@@ -6,7 +6,7 @@ import (
 	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"
 
-	"github.com/khanakia/entx/entcascade"
+	"github.com/ubgo/entx/entcascade"
 )
 
 // Workspace is the ROOT for the nested-annotation test chains. Its own

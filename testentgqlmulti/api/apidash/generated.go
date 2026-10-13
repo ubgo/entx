@@ -15,8 +15,8 @@ import (
 	"entgo.io/contrib/entgql"
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/introspection"
-	"github.com/khanakia/entx/testentgqlmulti/ent"
-	"github.com/khanakia/entx/testentgqlmulti/ent/user"
+	"github.com/ubgo/entx/testentgqlmulti/ent"
+	"github.com/ubgo/entx/testentgqlmulti/ent/user"
 	gqlparser "github.com/vektah/gqlparser/v2"
 	"github.com/vektah/gqlparser/v2/ast"
 )
@@ -807,7 +807,7 @@ var parsedSchema = gqlparser.MustLoadSchema(sources...)
 func (ec *executionContext) field_Mutation_createChatbot_args(ctx context.Context, rawArgs map[string]any) (map[string]any, error) {
 	var err error
 	args := map[string]any{}
-	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalNCreateChatbotInput2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐCreateChatbotInput)
+	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalNCreateChatbotInput2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐCreateChatbotInput)
 	if err != nil {
 		return nil, err
 	}
@@ -818,7 +818,7 @@ func (ec *executionContext) field_Mutation_createChatbot_args(ctx context.Contex
 func (ec *executionContext) field_Mutation_createPost_args(ctx context.Context, rawArgs map[string]any) (map[string]any, error) {
 	var err error
 	args := map[string]any{}
-	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalNCreatePostInput2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐCreatePostInput)
+	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalNCreatePostInput2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐCreatePostInput)
 	if err != nil {
 		return nil, err
 	}
@@ -829,7 +829,7 @@ func (ec *executionContext) field_Mutation_createPost_args(ctx context.Context, 
 func (ec *executionContext) field_Mutation_createTag_args(ctx context.Context, rawArgs map[string]any) (map[string]any, error) {
 	var err error
 	args := map[string]any{}
-	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalNCreateTagInput2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐCreateTagInput)
+	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalNCreateTagInput2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐCreateTagInput)
 	if err != nil {
 		return nil, err
 	}
@@ -840,7 +840,7 @@ func (ec *executionContext) field_Mutation_createTag_args(ctx context.Context, r
 func (ec *executionContext) field_Mutation_createUser_args(ctx context.Context, rawArgs map[string]any) (map[string]any, error) {
 	var err error
 	args := map[string]any{}
-	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalNCreateUserInput2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐCreateUserInput)
+	arg0, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalNCreateUserInput2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐCreateUserInput)
 	if err != nil {
 		return nil, err
 	}
@@ -856,7 +856,7 @@ func (ec *executionContext) field_Mutation_updateChatbot_args(ctx context.Contex
 		return nil, err
 	}
 	args["id"] = arg0
-	arg1, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalNUpdateChatbotInput2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUpdateChatbotInput)
+	arg1, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalNUpdateChatbotInput2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUpdateChatbotInput)
 	if err != nil {
 		return nil, err
 	}
@@ -872,7 +872,7 @@ func (ec *executionContext) field_Mutation_updatePost_args(ctx context.Context, 
 		return nil, err
 	}
 	args["id"] = arg0
-	arg1, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalNUpdatePostInput2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUpdatePostInput)
+	arg1, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalNUpdatePostInput2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUpdatePostInput)
 	if err != nil {
 		return nil, err
 	}
@@ -888,7 +888,7 @@ func (ec *executionContext) field_Mutation_updateTag_args(ctx context.Context, r
 		return nil, err
 	}
 	args["id"] = arg0
-	arg1, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalNUpdateTagInput2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUpdateTagInput)
+	arg1, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalNUpdateTagInput2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUpdateTagInput)
 	if err != nil {
 		return nil, err
 	}
@@ -904,7 +904,7 @@ func (ec *executionContext) field_Mutation_updateUser_args(ctx context.Context, 
 		return nil, err
 	}
 	args["id"] = arg0
-	arg1, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalNUpdateUserInput2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUpdateUserInput)
+	arg1, err := graphql.ProcessArgField(ctx, rawArgs, "input", ec.unmarshalNUpdateUserInput2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUpdateUserInput)
 	if err != nil {
 		return nil, err
 	}
@@ -972,12 +972,12 @@ func (ec *executionContext) field_Query_chatbots_args(ctx context.Context, rawAr
 		return nil, err
 	}
 	args["last"] = arg3
-	arg4, err := graphql.ProcessArgField(ctx, rawArgs, "orderBy", ec.unmarshalOChatbotOrder2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbotOrderᚄ)
+	arg4, err := graphql.ProcessArgField(ctx, rawArgs, "orderBy", ec.unmarshalOChatbotOrder2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbotOrderᚄ)
 	if err != nil {
 		return nil, err
 	}
 	args["orderBy"] = arg4
-	arg5, err := graphql.ProcessArgField(ctx, rawArgs, "where", ec.unmarshalOChatbotWhereInput2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbotWhereInput)
+	arg5, err := graphql.ProcessArgField(ctx, rawArgs, "where", ec.unmarshalOChatbotWhereInput2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbotWhereInput)
 	if err != nil {
 		return nil, err
 	}
@@ -1008,12 +1008,12 @@ func (ec *executionContext) field_Query_posts_args(ctx context.Context, rawArgs 
 		return nil, err
 	}
 	args["last"] = arg3
-	arg4, err := graphql.ProcessArgField(ctx, rawArgs, "orderBy", ec.unmarshalOPostOrder2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPostOrderᚄ)
+	arg4, err := graphql.ProcessArgField(ctx, rawArgs, "orderBy", ec.unmarshalOPostOrder2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPostOrderᚄ)
 	if err != nil {
 		return nil, err
 	}
 	args["orderBy"] = arg4
-	arg5, err := graphql.ProcessArgField(ctx, rawArgs, "where", ec.unmarshalOPostWhereInput2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPostWhereInput)
+	arg5, err := graphql.ProcessArgField(ctx, rawArgs, "where", ec.unmarshalOPostWhereInput2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPostWhereInput)
 	if err != nil {
 		return nil, err
 	}
@@ -1044,12 +1044,12 @@ func (ec *executionContext) field_Query_tags_args(ctx context.Context, rawArgs m
 		return nil, err
 	}
 	args["last"] = arg3
-	arg4, err := graphql.ProcessArgField(ctx, rawArgs, "orderBy", ec.unmarshalOTagOrder2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTagOrderᚄ)
+	arg4, err := graphql.ProcessArgField(ctx, rawArgs, "orderBy", ec.unmarshalOTagOrder2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTagOrderᚄ)
 	if err != nil {
 		return nil, err
 	}
 	args["orderBy"] = arg4
-	arg5, err := graphql.ProcessArgField(ctx, rawArgs, "where", ec.unmarshalOTagWhereInput2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTagWhereInput)
+	arg5, err := graphql.ProcessArgField(ctx, rawArgs, "where", ec.unmarshalOTagWhereInput2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTagWhereInput)
 	if err != nil {
 		return nil, err
 	}
@@ -1080,12 +1080,12 @@ func (ec *executionContext) field_Query_users_args(ctx context.Context, rawArgs 
 		return nil, err
 	}
 	args["last"] = arg3
-	arg4, err := graphql.ProcessArgField(ctx, rawArgs, "orderBy", ec.unmarshalOUserOrder2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUserOrderᚄ)
+	arg4, err := graphql.ProcessArgField(ctx, rawArgs, "orderBy", ec.unmarshalOUserOrder2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUserOrderᚄ)
 	if err != nil {
 		return nil, err
 	}
 	args["orderBy"] = arg4
-	arg5, err := graphql.ProcessArgField(ctx, rawArgs, "where", ec.unmarshalOUserWhereInput2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUserWhereInput)
+	arg5, err := graphql.ProcessArgField(ctx, rawArgs, "where", ec.unmarshalOUserWhereInput2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUserWhereInput)
 	if err != nil {
 		return nil, err
 	}
@@ -1300,7 +1300,7 @@ func (ec *executionContext) _ChatbotConnection_edges(ctx context.Context, field 
 			return obj.Edges, nil
 		},
 		nil,
-		ec.marshalOChatbotEdge2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbotEdge,
+		ec.marshalOChatbotEdge2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbotEdge,
 		true,
 		false,
 	)
@@ -1403,7 +1403,7 @@ func (ec *executionContext) _ChatbotEdge_node(ctx context.Context, field graphql
 			return obj.Node, nil
 		},
 		nil,
-		ec.marshalOChatbot2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbot,
+		ec.marshalOChatbot2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbot,
 		true,
 		false,
 	)
@@ -1560,7 +1560,7 @@ func (ec *executionContext) _ChatbotSummaryConnection_edges(ctx context.Context,
 			return obj.Edges, nil
 		},
 		nil,
-		ec.marshalOChatbotSummaryEdge2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋapiᚋapidashᚐChatbotSummaryEdge,
+		ec.marshalOChatbotSummaryEdge2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋapiᚋapidashᚐChatbotSummaryEdge,
 		true,
 		false,
 	)
@@ -1663,7 +1663,7 @@ func (ec *executionContext) _ChatbotSummaryEdge_node(ctx context.Context, field 
 			return obj.Node, nil
 		},
 		nil,
-		ec.marshalOChatbotSummary2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbot,
+		ec.marshalOChatbotSummary2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbot,
 		true,
 		false,
 	)
@@ -1730,7 +1730,7 @@ func (ec *executionContext) _Mutation_createChatbot(ctx context.Context, field g
 			return ec.Resolvers.Mutation().CreateChatbot(ctx, fc.Args["input"].(ent.CreateChatbotInput))
 		},
 		nil,
-		ec.marshalNChatbot2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbot,
+		ec.marshalNChatbot2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbot,
 		true,
 		true,
 	)
@@ -1783,7 +1783,7 @@ func (ec *executionContext) _Mutation_updateChatbot(ctx context.Context, field g
 			return ec.Resolvers.Mutation().UpdateChatbot(ctx, fc.Args["id"].(string), fc.Args["input"].(ent.UpdateChatbotInput))
 		},
 		nil,
-		ec.marshalNChatbot2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbot,
+		ec.marshalNChatbot2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbot,
 		true,
 		true,
 	)
@@ -1836,7 +1836,7 @@ func (ec *executionContext) _Mutation_createPost(ctx context.Context, field grap
 			return ec.Resolvers.Mutation().CreatePost(ctx, fc.Args["input"].(ent.CreatePostInput))
 		},
 		nil,
-		ec.marshalNPost2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPost,
+		ec.marshalNPost2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPost,
 		true,
 		true,
 	)
@@ -1891,7 +1891,7 @@ func (ec *executionContext) _Mutation_updatePost(ctx context.Context, field grap
 			return ec.Resolvers.Mutation().UpdatePost(ctx, fc.Args["id"].(string), fc.Args["input"].(ent.UpdatePostInput))
 		},
 		nil,
-		ec.marshalNPost2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPost,
+		ec.marshalNPost2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPost,
 		true,
 		true,
 	)
@@ -1946,7 +1946,7 @@ func (ec *executionContext) _Mutation_createTag(ctx context.Context, field graph
 			return ec.Resolvers.Mutation().CreateTag(ctx, fc.Args["input"].(ent.CreateTagInput))
 		},
 		nil,
-		ec.marshalNTag2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTag,
+		ec.marshalNTag2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTag,
 		true,
 		true,
 	)
@@ -1997,7 +1997,7 @@ func (ec *executionContext) _Mutation_updateTag(ctx context.Context, field graph
 			return ec.Resolvers.Mutation().UpdateTag(ctx, fc.Args["id"].(string), fc.Args["input"].(ent.UpdateTagInput))
 		},
 		nil,
-		ec.marshalNTag2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTag,
+		ec.marshalNTag2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTag,
 		true,
 		true,
 	)
@@ -2048,7 +2048,7 @@ func (ec *executionContext) _Mutation_createUser(ctx context.Context, field grap
 			return ec.Resolvers.Mutation().CreateUser(ctx, fc.Args["input"].(ent.CreateUserInput))
 		},
 		nil,
-		ec.marshalNUser2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUser,
+		ec.marshalNUser2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUser,
 		true,
 		true,
 	)
@@ -2107,7 +2107,7 @@ func (ec *executionContext) _Mutation_updateUser(ctx context.Context, field grap
 			return ec.Resolvers.Mutation().UpdateUser(ctx, fc.Args["id"].(string), fc.Args["input"].(ent.UpdateUserInput))
 		},
 		nil,
-		ec.marshalNUser2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUser,
+		ec.marshalNUser2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUser,
 		true,
 		true,
 	)
@@ -2397,7 +2397,7 @@ func (ec *executionContext) _Post_author(ctx context.Context, field graphql.Coll
 			return obj.Author(ctx)
 		},
 		nil,
-		ec.marshalOUser2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUser,
+		ec.marshalOUser2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUser,
 		true,
 		false,
 	)
@@ -2444,7 +2444,7 @@ func (ec *executionContext) _Post_tags(ctx context.Context, field graphql.Collec
 			return obj.Tags(ctx)
 		},
 		nil,
-		ec.marshalOTag2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTagᚄ,
+		ec.marshalOTag2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTagᚄ,
 		true,
 		false,
 	)
@@ -2483,7 +2483,7 @@ func (ec *executionContext) _PostConnection_edges(ctx context.Context, field gra
 			return obj.Edges, nil
 		},
 		nil,
-		ec.marshalOPostEdge2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPostEdge,
+		ec.marshalOPostEdge2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPostEdge,
 		true,
 		false,
 	)
@@ -2586,7 +2586,7 @@ func (ec *executionContext) _PostEdge_node(ctx context.Context, field graphql.Co
 			return obj.Node, nil
 		},
 		nil,
-		ec.marshalOPost2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPost,
+		ec.marshalOPost2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPost,
 		true,
 		false,
 	)
@@ -2659,7 +2659,7 @@ func (ec *executionContext) _Query_chatbots(ctx context.Context, field graphql.C
 			return ec.Resolvers.Query().Chatbots(ctx, fc.Args["after"].(*entgql.Cursor[int]), fc.Args["first"].(*int), fc.Args["before"].(*entgql.Cursor[int]), fc.Args["last"].(*int), fc.Args["orderBy"].([]*ent.ChatbotOrder), fc.Args["where"].(*ent.ChatbotWhereInput))
 		},
 		nil,
-		ec.marshalNChatbotConnection2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbotConnection,
+		ec.marshalNChatbotConnection2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbotConnection,
 		true,
 		true,
 	)
@@ -2708,7 +2708,7 @@ func (ec *executionContext) _Query_chatbotSummaries(ctx context.Context, field g
 			return ec.Resolvers.Query().ChatbotSummaries(ctx, fc.Args["after"].(*entgql.Cursor[int]), fc.Args["first"].(*int), fc.Args["before"].(*entgql.Cursor[int]), fc.Args["last"].(*int))
 		},
 		nil,
-		ec.marshalNChatbotSummaryConnection2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋapiᚋapidashᚐChatbotSummaryConnection,
+		ec.marshalNChatbotSummaryConnection2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋapiᚋapidashᚐChatbotSummaryConnection,
 		true,
 		true,
 	)
@@ -2757,7 +2757,7 @@ func (ec *executionContext) _Query_posts(ctx context.Context, field graphql.Coll
 			return ec.Resolvers.Query().Posts(ctx, fc.Args["after"].(*entgql.Cursor[int]), fc.Args["first"].(*int), fc.Args["before"].(*entgql.Cursor[int]), fc.Args["last"].(*int), fc.Args["orderBy"].([]*ent.PostOrder), fc.Args["where"].(*ent.PostWhereInput))
 		},
 		nil,
-		ec.marshalNPostConnection2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPostConnection,
+		ec.marshalNPostConnection2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPostConnection,
 		true,
 		true,
 	)
@@ -2806,7 +2806,7 @@ func (ec *executionContext) _Query_tags(ctx context.Context, field graphql.Colle
 			return ec.Resolvers.Query().Tags(ctx, fc.Args["after"].(*entgql.Cursor[int]), fc.Args["first"].(*int), fc.Args["before"].(*entgql.Cursor[int]), fc.Args["last"].(*int), fc.Args["orderBy"].([]*ent.TagOrder), fc.Args["where"].(*ent.TagWhereInput))
 		},
 		nil,
-		ec.marshalNTagConnection2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTagConnection,
+		ec.marshalNTagConnection2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTagConnection,
 		true,
 		true,
 	)
@@ -2855,7 +2855,7 @@ func (ec *executionContext) _Query_users(ctx context.Context, field graphql.Coll
 			return ec.Resolvers.Query().Users(ctx, fc.Args["after"].(*entgql.Cursor[int]), fc.Args["first"].(*int), fc.Args["before"].(*entgql.Cursor[int]), fc.Args["last"].(*int), fc.Args["orderBy"].([]*ent.UserOrder), fc.Args["where"].(*ent.UserWhereInput))
 		},
 		nil,
-		ec.marshalNUserConnection2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUserConnection,
+		ec.marshalNUserConnection2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUserConnection,
 		true,
 		true,
 	)
@@ -3098,7 +3098,7 @@ func (ec *executionContext) _Tag_posts(ctx context.Context, field graphql.Collec
 			return obj.Posts(ctx)
 		},
 		nil,
-		ec.marshalOPost2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPostᚄ,
+		ec.marshalOPost2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPostᚄ,
 		true,
 		false,
 	)
@@ -3141,7 +3141,7 @@ func (ec *executionContext) _TagConnection_edges(ctx context.Context, field grap
 			return obj.Edges, nil
 		},
 		nil,
-		ec.marshalOTagEdge2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTagEdge,
+		ec.marshalOTagEdge2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTagEdge,
 		true,
 		false,
 	)
@@ -3244,7 +3244,7 @@ func (ec *executionContext) _TagEdge_node(ctx context.Context, field graphql.Col
 			return obj.Node, nil
 		},
 		nil,
-		ec.marshalOTag2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTag,
+		ec.marshalOTag2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTag,
 		true,
 		false,
 	)
@@ -3457,7 +3457,7 @@ func (ec *executionContext) _User_status(ctx context.Context, field graphql.Coll
 			return obj.Status, nil
 		},
 		nil,
-		ec.marshalNUserStatus2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatus,
+		ec.marshalNUserStatus2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatus,
 		true,
 		true,
 	)
@@ -3515,7 +3515,7 @@ func (ec *executionContext) _User_posts(ctx context.Context, field graphql.Colle
 			return obj.Posts(ctx)
 		},
 		nil,
-		ec.marshalOPost2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPostᚄ,
+		ec.marshalOPost2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPostᚄ,
 		true,
 		false,
 	)
@@ -3558,7 +3558,7 @@ func (ec *executionContext) _UserConnection_edges(ctx context.Context, field gra
 			return obj.Edges, nil
 		},
 		nil,
-		ec.marshalOUserEdge2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUserEdge,
+		ec.marshalOUserEdge2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUserEdge,
 		true,
 		false,
 	)
@@ -3661,7 +3661,7 @@ func (ec *executionContext) _UserEdge_node(ctx context.Context, field graphql.Co
 			return obj.Node, nil
 		},
 		nil,
-		ec.marshalOUser2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUser,
+		ec.marshalOUser2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUser,
 		true,
 		false,
 	)
@@ -5204,7 +5204,7 @@ func (ec *executionContext) unmarshalInputChatbotOrder(ctx context.Context, obj 
 			it.Direction = data
 		case "field":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("field"))
-			data, err := ec.unmarshalNChatbotOrderField2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbotOrderField(ctx, v)
+			data, err := ec.unmarshalNChatbotOrderField2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbotOrderField(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -5234,21 +5234,21 @@ func (ec *executionContext) unmarshalInputChatbotWhereInput(ctx context.Context,
 		switch k {
 		case "not":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("not"))
-			data, err := ec.unmarshalOChatbotWhereInput2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbotWhereInput(ctx, v)
+			data, err := ec.unmarshalOChatbotWhereInput2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbotWhereInput(ctx, v)
 			if err != nil {
 				return it, err
 			}
 			it.Not = data
 		case "and":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("and"))
-			data, err := ec.unmarshalOChatbotWhereInput2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbotWhereInputᚄ(ctx, v)
+			data, err := ec.unmarshalOChatbotWhereInput2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbotWhereInputᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
 			it.And = data
 		case "or":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("or"))
-			data, err := ec.unmarshalOChatbotWhereInput2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbotWhereInputᚄ(ctx, v)
+			data, err := ec.unmarshalOChatbotWhereInput2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbotWhereInputᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -5914,7 +5914,7 @@ func (ec *executionContext) unmarshalInputCreateUserInput(ctx context.Context, o
 			it.Avatar = data
 		case "status":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("status"))
-			data, err := ec.unmarshalOUserStatus2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatus(ctx, v)
+			data, err := ec.unmarshalOUserStatus2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatus(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -5976,7 +5976,7 @@ func (ec *executionContext) unmarshalInputPostOrder(ctx context.Context, obj any
 			it.Direction = data
 		case "field":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("field"))
-			data, err := ec.unmarshalNPostOrderField2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPostOrderField(ctx, v)
+			data, err := ec.unmarshalNPostOrderField2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPostOrderField(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -6006,21 +6006,21 @@ func (ec *executionContext) unmarshalInputPostWhereInput(ctx context.Context, ob
 		switch k {
 		case "not":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("not"))
-			data, err := ec.unmarshalOPostWhereInput2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPostWhereInput(ctx, v)
+			data, err := ec.unmarshalOPostWhereInput2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPostWhereInput(ctx, v)
 			if err != nil {
 				return it, err
 			}
 			it.Not = data
 		case "and":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("and"))
-			data, err := ec.unmarshalOPostWhereInput2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPostWhereInputᚄ(ctx, v)
+			data, err := ec.unmarshalOPostWhereInput2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPostWhereInputᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
 			it.And = data
 		case "or":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("or"))
-			data, err := ec.unmarshalOPostWhereInput2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPostWhereInputᚄ(ctx, v)
+			data, err := ec.unmarshalOPostWhereInput2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPostWhereInputᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -6286,7 +6286,7 @@ func (ec *executionContext) unmarshalInputPostWhereInput(ctx context.Context, ob
 			it.HasAuthor = data
 		case "hasAuthorWith":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("hasAuthorWith"))
-			data, err := ec.unmarshalOUserWhereInput2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUserWhereInputᚄ(ctx, v)
+			data, err := ec.unmarshalOUserWhereInput2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUserWhereInputᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -6300,7 +6300,7 @@ func (ec *executionContext) unmarshalInputPostWhereInput(ctx context.Context, ob
 			it.HasTags = data
 		case "hasTagsWith":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("hasTagsWith"))
-			data, err := ec.unmarshalOTagWhereInput2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTagWhereInputᚄ(ctx, v)
+			data, err := ec.unmarshalOTagWhereInput2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTagWhereInputᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -6341,7 +6341,7 @@ func (ec *executionContext) unmarshalInputTagOrder(ctx context.Context, obj any)
 			it.Direction = data
 		case "field":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("field"))
-			data, err := ec.unmarshalNTagOrderField2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTagOrderField(ctx, v)
+			data, err := ec.unmarshalNTagOrderField2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTagOrderField(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -6371,21 +6371,21 @@ func (ec *executionContext) unmarshalInputTagWhereInput(ctx context.Context, obj
 		switch k {
 		case "not":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("not"))
-			data, err := ec.unmarshalOTagWhereInput2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTagWhereInput(ctx, v)
+			data, err := ec.unmarshalOTagWhereInput2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTagWhereInput(ctx, v)
 			if err != nil {
 				return it, err
 			}
 			it.Not = data
 		case "and":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("and"))
-			data, err := ec.unmarshalOTagWhereInput2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTagWhereInputᚄ(ctx, v)
+			data, err := ec.unmarshalOTagWhereInput2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTagWhereInputᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
 			it.And = data
 		case "or":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("or"))
-			data, err := ec.unmarshalOTagWhereInput2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTagWhereInputᚄ(ctx, v)
+			data, err := ec.unmarshalOTagWhereInput2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTagWhereInputᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -6651,7 +6651,7 @@ func (ec *executionContext) unmarshalInputTagWhereInput(ctx context.Context, obj
 			it.HasPosts = data
 		case "hasPostsWith":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("hasPostsWith"))
-			data, err := ec.unmarshalOPostWhereInput2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPostWhereInputᚄ(ctx, v)
+			data, err := ec.unmarshalOPostWhereInput2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPostWhereInputᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -6932,7 +6932,7 @@ func (ec *executionContext) unmarshalInputUpdateUserInput(ctx context.Context, o
 			it.ClearAvatar = data
 		case "status":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("status"))
-			data, err := ec.unmarshalOUserStatus2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatus(ctx, v)
+			data, err := ec.unmarshalOUserStatus2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatus(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -7022,7 +7022,7 @@ func (ec *executionContext) unmarshalInputUserOrder(ctx context.Context, obj any
 			it.Direction = data
 		case "field":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("field"))
-			data, err := ec.unmarshalNUserOrderField2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUserOrderField(ctx, v)
+			data, err := ec.unmarshalNUserOrderField2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUserOrderField(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -7052,21 +7052,21 @@ func (ec *executionContext) unmarshalInputUserWhereInput(ctx context.Context, ob
 		switch k {
 		case "not":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("not"))
-			data, err := ec.unmarshalOUserWhereInput2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUserWhereInput(ctx, v)
+			data, err := ec.unmarshalOUserWhereInput2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUserWhereInput(ctx, v)
 			if err != nil {
 				return it, err
 			}
 			it.Not = data
 		case "and":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("and"))
-			data, err := ec.unmarshalOUserWhereInput2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUserWhereInputᚄ(ctx, v)
+			data, err := ec.unmarshalOUserWhereInput2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUserWhereInputᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
 			it.And = data
 		case "or":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("or"))
-			data, err := ec.unmarshalOUserWhereInput2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUserWhereInputᚄ(ctx, v)
+			data, err := ec.unmarshalOUserWhereInput2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUserWhereInputᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -7507,28 +7507,28 @@ func (ec *executionContext) unmarshalInputUserWhereInput(ctx context.Context, ob
 			it.AvatarContainsFold = data
 		case "status":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("status"))
-			data, err := ec.unmarshalOUserStatus2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatus(ctx, v)
+			data, err := ec.unmarshalOUserStatus2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatus(ctx, v)
 			if err != nil {
 				return it, err
 			}
 			it.Status = data
 		case "statusNEQ":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("statusNEQ"))
-			data, err := ec.unmarshalOUserStatus2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatus(ctx, v)
+			data, err := ec.unmarshalOUserStatus2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatus(ctx, v)
 			if err != nil {
 				return it, err
 			}
 			it.StatusNEQ = data
 		case "statusIn":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("statusIn"))
-			data, err := ec.unmarshalOUserStatus2ᚕgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatusᚄ(ctx, v)
+			data, err := ec.unmarshalOUserStatus2ᚕgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatusᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
 			it.StatusIn = data
 		case "statusNotIn":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("statusNotIn"))
-			data, err := ec.unmarshalOUserStatus2ᚕgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatusᚄ(ctx, v)
+			data, err := ec.unmarshalOUserStatus2ᚕgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatusᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -7598,7 +7598,7 @@ func (ec *executionContext) unmarshalInputUserWhereInput(ctx context.Context, ob
 			it.HasPosts = data
 		case "hasPostsWith":
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("hasPostsWith"))
-			data, err := ec.unmarshalOPostWhereInput2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPostWhereInputᚄ(ctx, v)
+			data, err := ec.unmarshalOPostWhereInput2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPostWhereInputᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -9121,11 +9121,11 @@ func (ec *executionContext) marshalNBoolean2bool(ctx context.Context, sel ast.Se
 	return res
 }
 
-func (ec *executionContext) marshalNChatbot2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbot(ctx context.Context, sel ast.SelectionSet, v ent.Chatbot) graphql.Marshaler {
+func (ec *executionContext) marshalNChatbot2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbot(ctx context.Context, sel ast.SelectionSet, v ent.Chatbot) graphql.Marshaler {
 	return ec._Chatbot(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNChatbot2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbot(ctx context.Context, sel ast.SelectionSet, v *ent.Chatbot) graphql.Marshaler {
+func (ec *executionContext) marshalNChatbot2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbot(ctx context.Context, sel ast.SelectionSet, v *ent.Chatbot) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -9135,11 +9135,11 @@ func (ec *executionContext) marshalNChatbot2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋ
 	return ec._Chatbot(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNChatbotConnection2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbotConnection(ctx context.Context, sel ast.SelectionSet, v ent.ChatbotConnection) graphql.Marshaler {
+func (ec *executionContext) marshalNChatbotConnection2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbotConnection(ctx context.Context, sel ast.SelectionSet, v ent.ChatbotConnection) graphql.Marshaler {
 	return ec._ChatbotConnection(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNChatbotConnection2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbotConnection(ctx context.Context, sel ast.SelectionSet, v *ent.ChatbotConnection) graphql.Marshaler {
+func (ec *executionContext) marshalNChatbotConnection2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbotConnection(ctx context.Context, sel ast.SelectionSet, v *ent.ChatbotConnection) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -9149,18 +9149,18 @@ func (ec *executionContext) marshalNChatbotConnection2ᚖgithubᚗcomᚋkhanakia
 	return ec._ChatbotConnection(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNChatbotOrder2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbotOrder(ctx context.Context, v any) (*ent.ChatbotOrder, error) {
+func (ec *executionContext) unmarshalNChatbotOrder2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbotOrder(ctx context.Context, v any) (*ent.ChatbotOrder, error) {
 	res, err := ec.unmarshalInputChatbotOrder(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) unmarshalNChatbotOrderField2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbotOrderField(ctx context.Context, v any) (*ent.ChatbotOrderField, error) {
+func (ec *executionContext) unmarshalNChatbotOrderField2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbotOrderField(ctx context.Context, v any) (*ent.ChatbotOrderField, error) {
 	var res = new(ent.ChatbotOrderField)
 	err := res.UnmarshalGQL(v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNChatbotOrderField2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbotOrderField(ctx context.Context, sel ast.SelectionSet, v *ent.ChatbotOrderField) graphql.Marshaler {
+func (ec *executionContext) marshalNChatbotOrderField2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbotOrderField(ctx context.Context, sel ast.SelectionSet, v *ent.ChatbotOrderField) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -9170,11 +9170,11 @@ func (ec *executionContext) marshalNChatbotOrderField2ᚖgithubᚗcomᚋkhanakia
 	return v
 }
 
-func (ec *executionContext) marshalNChatbotSummaryConnection2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋapiᚋapidashᚐChatbotSummaryConnection(ctx context.Context, sel ast.SelectionSet, v ChatbotSummaryConnection) graphql.Marshaler {
+func (ec *executionContext) marshalNChatbotSummaryConnection2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋapiᚋapidashᚐChatbotSummaryConnection(ctx context.Context, sel ast.SelectionSet, v ChatbotSummaryConnection) graphql.Marshaler {
 	return ec._ChatbotSummaryConnection(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNChatbotSummaryConnection2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋapiᚋapidashᚐChatbotSummaryConnection(ctx context.Context, sel ast.SelectionSet, v *ChatbotSummaryConnection) graphql.Marshaler {
+func (ec *executionContext) marshalNChatbotSummaryConnection2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋapiᚋapidashᚐChatbotSummaryConnection(ctx context.Context, sel ast.SelectionSet, v *ChatbotSummaryConnection) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -9184,27 +9184,27 @@ func (ec *executionContext) marshalNChatbotSummaryConnection2ᚖgithubᚗcomᚋk
 	return ec._ChatbotSummaryConnection(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNChatbotWhereInput2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbotWhereInput(ctx context.Context, v any) (*ent.ChatbotWhereInput, error) {
+func (ec *executionContext) unmarshalNChatbotWhereInput2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbotWhereInput(ctx context.Context, v any) (*ent.ChatbotWhereInput, error) {
 	res, err := ec.unmarshalInputChatbotWhereInput(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) unmarshalNCreateChatbotInput2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐCreateChatbotInput(ctx context.Context, v any) (ent.CreateChatbotInput, error) {
+func (ec *executionContext) unmarshalNCreateChatbotInput2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐCreateChatbotInput(ctx context.Context, v any) (ent.CreateChatbotInput, error) {
 	res, err := ec.unmarshalInputCreateChatbotInput(ctx, v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) unmarshalNCreatePostInput2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐCreatePostInput(ctx context.Context, v any) (ent.CreatePostInput, error) {
+func (ec *executionContext) unmarshalNCreatePostInput2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐCreatePostInput(ctx context.Context, v any) (ent.CreatePostInput, error) {
 	res, err := ec.unmarshalInputCreatePostInput(ctx, v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) unmarshalNCreateTagInput2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐCreateTagInput(ctx context.Context, v any) (ent.CreateTagInput, error) {
+func (ec *executionContext) unmarshalNCreateTagInput2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐCreateTagInput(ctx context.Context, v any) (ent.CreateTagInput, error) {
 	res, err := ec.unmarshalInputCreateTagInput(ctx, v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) unmarshalNCreateUserInput2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐCreateUserInput(ctx context.Context, v any) (ent.CreateUserInput, error) {
+func (ec *executionContext) unmarshalNCreateUserInput2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐCreateUserInput(ctx context.Context, v any) (ent.CreateUserInput, error) {
 	res, err := ec.unmarshalInputCreateUserInput(ctx, v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
@@ -9291,11 +9291,11 @@ func (ec *executionContext) marshalNPageInfo2ᚖentgoᚗioᚋcontribᚋentgqlᚐ
 	return ec._PageInfo(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNPost2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPost(ctx context.Context, sel ast.SelectionSet, v ent.Post) graphql.Marshaler {
+func (ec *executionContext) marshalNPost2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPost(ctx context.Context, sel ast.SelectionSet, v ent.Post) graphql.Marshaler {
 	return ec._Post(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNPost2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPost(ctx context.Context, sel ast.SelectionSet, v *ent.Post) graphql.Marshaler {
+func (ec *executionContext) marshalNPost2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPost(ctx context.Context, sel ast.SelectionSet, v *ent.Post) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -9305,11 +9305,11 @@ func (ec *executionContext) marshalNPost2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtes
 	return ec._Post(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNPostConnection2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPostConnection(ctx context.Context, sel ast.SelectionSet, v ent.PostConnection) graphql.Marshaler {
+func (ec *executionContext) marshalNPostConnection2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPostConnection(ctx context.Context, sel ast.SelectionSet, v ent.PostConnection) graphql.Marshaler {
 	return ec._PostConnection(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNPostConnection2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPostConnection(ctx context.Context, sel ast.SelectionSet, v *ent.PostConnection) graphql.Marshaler {
+func (ec *executionContext) marshalNPostConnection2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPostConnection(ctx context.Context, sel ast.SelectionSet, v *ent.PostConnection) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -9319,18 +9319,18 @@ func (ec *executionContext) marshalNPostConnection2ᚖgithubᚗcomᚋkhanakiaᚋ
 	return ec._PostConnection(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNPostOrder2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPostOrder(ctx context.Context, v any) (*ent.PostOrder, error) {
+func (ec *executionContext) unmarshalNPostOrder2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPostOrder(ctx context.Context, v any) (*ent.PostOrder, error) {
 	res, err := ec.unmarshalInputPostOrder(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) unmarshalNPostOrderField2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPostOrderField(ctx context.Context, v any) (*ent.PostOrderField, error) {
+func (ec *executionContext) unmarshalNPostOrderField2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPostOrderField(ctx context.Context, v any) (*ent.PostOrderField, error) {
 	var res = new(ent.PostOrderField)
 	err := res.UnmarshalGQL(v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNPostOrderField2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPostOrderField(ctx context.Context, sel ast.SelectionSet, v *ent.PostOrderField) graphql.Marshaler {
+func (ec *executionContext) marshalNPostOrderField2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPostOrderField(ctx context.Context, sel ast.SelectionSet, v *ent.PostOrderField) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -9340,7 +9340,7 @@ func (ec *executionContext) marshalNPostOrderField2ᚖgithubᚗcomᚋkhanakiaᚋ
 	return v
 }
 
-func (ec *executionContext) unmarshalNPostWhereInput2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPostWhereInput(ctx context.Context, v any) (*ent.PostWhereInput, error) {
+func (ec *executionContext) unmarshalNPostWhereInput2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPostWhereInput(ctx context.Context, v any) (*ent.PostWhereInput, error) {
 	res, err := ec.unmarshalInputPostWhereInput(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
@@ -9361,11 +9361,11 @@ func (ec *executionContext) marshalNString2string(ctx context.Context, sel ast.S
 	return res
 }
 
-func (ec *executionContext) marshalNTag2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTag(ctx context.Context, sel ast.SelectionSet, v ent.Tag) graphql.Marshaler {
+func (ec *executionContext) marshalNTag2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTag(ctx context.Context, sel ast.SelectionSet, v ent.Tag) graphql.Marshaler {
 	return ec._Tag(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNTag2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTag(ctx context.Context, sel ast.SelectionSet, v *ent.Tag) graphql.Marshaler {
+func (ec *executionContext) marshalNTag2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTag(ctx context.Context, sel ast.SelectionSet, v *ent.Tag) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -9375,11 +9375,11 @@ func (ec *executionContext) marshalNTag2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtest
 	return ec._Tag(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNTagConnection2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTagConnection(ctx context.Context, sel ast.SelectionSet, v ent.TagConnection) graphql.Marshaler {
+func (ec *executionContext) marshalNTagConnection2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTagConnection(ctx context.Context, sel ast.SelectionSet, v ent.TagConnection) graphql.Marshaler {
 	return ec._TagConnection(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNTagConnection2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTagConnection(ctx context.Context, sel ast.SelectionSet, v *ent.TagConnection) graphql.Marshaler {
+func (ec *executionContext) marshalNTagConnection2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTagConnection(ctx context.Context, sel ast.SelectionSet, v *ent.TagConnection) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -9389,18 +9389,18 @@ func (ec *executionContext) marshalNTagConnection2ᚖgithubᚗcomᚋkhanakiaᚋe
 	return ec._TagConnection(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNTagOrder2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTagOrder(ctx context.Context, v any) (*ent.TagOrder, error) {
+func (ec *executionContext) unmarshalNTagOrder2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTagOrder(ctx context.Context, v any) (*ent.TagOrder, error) {
 	res, err := ec.unmarshalInputTagOrder(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) unmarshalNTagOrderField2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTagOrderField(ctx context.Context, v any) (*ent.TagOrderField, error) {
+func (ec *executionContext) unmarshalNTagOrderField2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTagOrderField(ctx context.Context, v any) (*ent.TagOrderField, error) {
 	var res = new(ent.TagOrderField)
 	err := res.UnmarshalGQL(v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNTagOrderField2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTagOrderField(ctx context.Context, sel ast.SelectionSet, v *ent.TagOrderField) graphql.Marshaler {
+func (ec *executionContext) marshalNTagOrderField2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTagOrderField(ctx context.Context, sel ast.SelectionSet, v *ent.TagOrderField) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -9410,7 +9410,7 @@ func (ec *executionContext) marshalNTagOrderField2ᚖgithubᚗcomᚋkhanakiaᚋe
 	return v
 }
 
-func (ec *executionContext) unmarshalNTagWhereInput2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTagWhereInput(ctx context.Context, v any) (*ent.TagWhereInput, error) {
+func (ec *executionContext) unmarshalNTagWhereInput2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTagWhereInput(ctx context.Context, v any) (*ent.TagWhereInput, error) {
 	res, err := ec.unmarshalInputTagWhereInput(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
@@ -9431,31 +9431,31 @@ func (ec *executionContext) marshalNTime2timeᚐTime(ctx context.Context, sel as
 	return res
 }
 
-func (ec *executionContext) unmarshalNUpdateChatbotInput2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUpdateChatbotInput(ctx context.Context, v any) (ent.UpdateChatbotInput, error) {
+func (ec *executionContext) unmarshalNUpdateChatbotInput2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUpdateChatbotInput(ctx context.Context, v any) (ent.UpdateChatbotInput, error) {
 	res, err := ec.unmarshalInputUpdateChatbotInput(ctx, v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) unmarshalNUpdatePostInput2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUpdatePostInput(ctx context.Context, v any) (ent.UpdatePostInput, error) {
+func (ec *executionContext) unmarshalNUpdatePostInput2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUpdatePostInput(ctx context.Context, v any) (ent.UpdatePostInput, error) {
 	res, err := ec.unmarshalInputUpdatePostInput(ctx, v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) unmarshalNUpdateTagInput2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUpdateTagInput(ctx context.Context, v any) (ent.UpdateTagInput, error) {
+func (ec *executionContext) unmarshalNUpdateTagInput2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUpdateTagInput(ctx context.Context, v any) (ent.UpdateTagInput, error) {
 	res, err := ec.unmarshalInputUpdateTagInput(ctx, v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) unmarshalNUpdateUserInput2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUpdateUserInput(ctx context.Context, v any) (ent.UpdateUserInput, error) {
+func (ec *executionContext) unmarshalNUpdateUserInput2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUpdateUserInput(ctx context.Context, v any) (ent.UpdateUserInput, error) {
 	res, err := ec.unmarshalInputUpdateUserInput(ctx, v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNUser2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUser(ctx context.Context, sel ast.SelectionSet, v ent.User) graphql.Marshaler {
+func (ec *executionContext) marshalNUser2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUser(ctx context.Context, sel ast.SelectionSet, v ent.User) graphql.Marshaler {
 	return ec._User(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNUser2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUser(ctx context.Context, sel ast.SelectionSet, v *ent.User) graphql.Marshaler {
+func (ec *executionContext) marshalNUser2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUser(ctx context.Context, sel ast.SelectionSet, v *ent.User) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -9465,11 +9465,11 @@ func (ec *executionContext) marshalNUser2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtes
 	return ec._User(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNUserConnection2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUserConnection(ctx context.Context, sel ast.SelectionSet, v ent.UserConnection) graphql.Marshaler {
+func (ec *executionContext) marshalNUserConnection2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUserConnection(ctx context.Context, sel ast.SelectionSet, v ent.UserConnection) graphql.Marshaler {
 	return ec._UserConnection(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNUserConnection2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUserConnection(ctx context.Context, sel ast.SelectionSet, v *ent.UserConnection) graphql.Marshaler {
+func (ec *executionContext) marshalNUserConnection2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUserConnection(ctx context.Context, sel ast.SelectionSet, v *ent.UserConnection) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -9479,18 +9479,18 @@ func (ec *executionContext) marshalNUserConnection2ᚖgithubᚗcomᚋkhanakiaᚋ
 	return ec._UserConnection(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNUserOrder2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUserOrder(ctx context.Context, v any) (*ent.UserOrder, error) {
+func (ec *executionContext) unmarshalNUserOrder2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUserOrder(ctx context.Context, v any) (*ent.UserOrder, error) {
 	res, err := ec.unmarshalInputUserOrder(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) unmarshalNUserOrderField2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUserOrderField(ctx context.Context, v any) (*ent.UserOrderField, error) {
+func (ec *executionContext) unmarshalNUserOrderField2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUserOrderField(ctx context.Context, v any) (*ent.UserOrderField, error) {
 	var res = new(ent.UserOrderField)
 	err := res.UnmarshalGQL(v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNUserOrderField2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUserOrderField(ctx context.Context, sel ast.SelectionSet, v *ent.UserOrderField) graphql.Marshaler {
+func (ec *executionContext) marshalNUserOrderField2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUserOrderField(ctx context.Context, sel ast.SelectionSet, v *ent.UserOrderField) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -9500,17 +9500,17 @@ func (ec *executionContext) marshalNUserOrderField2ᚖgithubᚗcomᚋkhanakiaᚋ
 	return v
 }
 
-func (ec *executionContext) unmarshalNUserStatus2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatus(ctx context.Context, v any) (user.Status, error) {
+func (ec *executionContext) unmarshalNUserStatus2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatus(ctx context.Context, v any) (user.Status, error) {
 	var res user.Status
 	err := res.UnmarshalGQL(v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNUserStatus2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatus(ctx context.Context, sel ast.SelectionSet, v user.Status) graphql.Marshaler {
+func (ec *executionContext) marshalNUserStatus2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatus(ctx context.Context, sel ast.SelectionSet, v user.Status) graphql.Marshaler {
 	return v
 }
 
-func (ec *executionContext) unmarshalNUserWhereInput2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUserWhereInput(ctx context.Context, v any) (*ent.UserWhereInput, error) {
+func (ec *executionContext) unmarshalNUserWhereInput2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUserWhereInput(ctx context.Context, v any) (*ent.UserWhereInput, error) {
 	res, err := ec.unmarshalInputUserWhereInput(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
@@ -9686,34 +9686,34 @@ func (ec *executionContext) marshalOBoolean2ᚖbool(ctx context.Context, sel ast
 	return res
 }
 
-func (ec *executionContext) marshalOChatbot2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbot(ctx context.Context, sel ast.SelectionSet, v *ent.Chatbot) graphql.Marshaler {
+func (ec *executionContext) marshalOChatbot2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbot(ctx context.Context, sel ast.SelectionSet, v *ent.Chatbot) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Chatbot(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOChatbotEdge2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbotEdge(ctx context.Context, sel ast.SelectionSet, v []*ent.ChatbotEdge) graphql.Marshaler {
+func (ec *executionContext) marshalOChatbotEdge2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbotEdge(ctx context.Context, sel ast.SelectionSet, v []*ent.ChatbotEdge) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalOChatbotEdge2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbotEdge(ctx, sel, v[i])
+		return ec.marshalOChatbotEdge2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbotEdge(ctx, sel, v[i])
 	})
 
 	return ret
 }
 
-func (ec *executionContext) marshalOChatbotEdge2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbotEdge(ctx context.Context, sel ast.SelectionSet, v *ent.ChatbotEdge) graphql.Marshaler {
+func (ec *executionContext) marshalOChatbotEdge2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbotEdge(ctx context.Context, sel ast.SelectionSet, v *ent.ChatbotEdge) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._ChatbotEdge(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalOChatbotOrder2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbotOrderᚄ(ctx context.Context, v any) ([]*ent.ChatbotOrder, error) {
+func (ec *executionContext) unmarshalOChatbotOrder2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbotOrderᚄ(ctx context.Context, v any) ([]*ent.ChatbotOrder, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -9723,7 +9723,7 @@ func (ec *executionContext) unmarshalOChatbotOrder2ᚕᚖgithubᚗcomᚋkhanakia
 	res := make([]*ent.ChatbotOrder, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNChatbotOrder2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbotOrder(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNChatbotOrder2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbotOrder(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -9731,34 +9731,34 @@ func (ec *executionContext) unmarshalOChatbotOrder2ᚕᚖgithubᚗcomᚋkhanakia
 	return res, nil
 }
 
-func (ec *executionContext) marshalOChatbotSummary2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbot(ctx context.Context, sel ast.SelectionSet, v *ent.Chatbot) graphql.Marshaler {
+func (ec *executionContext) marshalOChatbotSummary2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbot(ctx context.Context, sel ast.SelectionSet, v *ent.Chatbot) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._ChatbotSummary(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOChatbotSummaryEdge2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋapiᚋapidashᚐChatbotSummaryEdge(ctx context.Context, sel ast.SelectionSet, v []*ChatbotSummaryEdge) graphql.Marshaler {
+func (ec *executionContext) marshalOChatbotSummaryEdge2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋapiᚋapidashᚐChatbotSummaryEdge(ctx context.Context, sel ast.SelectionSet, v []*ChatbotSummaryEdge) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalOChatbotSummaryEdge2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋapiᚋapidashᚐChatbotSummaryEdge(ctx, sel, v[i])
+		return ec.marshalOChatbotSummaryEdge2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋapiᚋapidashᚐChatbotSummaryEdge(ctx, sel, v[i])
 	})
 
 	return ret
 }
 
-func (ec *executionContext) marshalOChatbotSummaryEdge2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋapiᚋapidashᚐChatbotSummaryEdge(ctx context.Context, sel ast.SelectionSet, v *ChatbotSummaryEdge) graphql.Marshaler {
+func (ec *executionContext) marshalOChatbotSummaryEdge2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋapiᚋapidashᚐChatbotSummaryEdge(ctx context.Context, sel ast.SelectionSet, v *ChatbotSummaryEdge) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._ChatbotSummaryEdge(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalOChatbotWhereInput2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbotWhereInputᚄ(ctx context.Context, v any) ([]*ent.ChatbotWhereInput, error) {
+func (ec *executionContext) unmarshalOChatbotWhereInput2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbotWhereInputᚄ(ctx context.Context, v any) ([]*ent.ChatbotWhereInput, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -9768,7 +9768,7 @@ func (ec *executionContext) unmarshalOChatbotWhereInput2ᚕᚖgithubᚗcomᚋkha
 	res := make([]*ent.ChatbotWhereInput, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNChatbotWhereInput2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbotWhereInput(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNChatbotWhereInput2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbotWhereInput(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -9776,7 +9776,7 @@ func (ec *executionContext) unmarshalOChatbotWhereInput2ᚕᚖgithubᚗcomᚋkha
 	return res, nil
 }
 
-func (ec *executionContext) unmarshalOChatbotWhereInput2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐChatbotWhereInput(ctx context.Context, v any) (*ent.ChatbotWhereInput, error) {
+func (ec *executionContext) unmarshalOChatbotWhereInput2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐChatbotWhereInput(ctx context.Context, v any) (*ent.ChatbotWhereInput, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -9872,14 +9872,14 @@ func (ec *executionContext) marshalOInt2ᚖint(ctx context.Context, sel ast.Sele
 	return res
 }
 
-func (ec *executionContext) marshalOPost2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPostᚄ(ctx context.Context, sel ast.SelectionSet, v []*ent.Post) graphql.Marshaler {
+func (ec *executionContext) marshalOPost2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPostᚄ(ctx context.Context, sel ast.SelectionSet, v []*ent.Post) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalNPost2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPost(ctx, sel, v[i])
+		return ec.marshalNPost2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPost(ctx, sel, v[i])
 	})
 
 	for _, e := range ret {
@@ -9891,34 +9891,34 @@ func (ec *executionContext) marshalOPost2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋ
 	return ret
 }
 
-func (ec *executionContext) marshalOPost2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPost(ctx context.Context, sel ast.SelectionSet, v *ent.Post) graphql.Marshaler {
+func (ec *executionContext) marshalOPost2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPost(ctx context.Context, sel ast.SelectionSet, v *ent.Post) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Post(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOPostEdge2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPostEdge(ctx context.Context, sel ast.SelectionSet, v []*ent.PostEdge) graphql.Marshaler {
+func (ec *executionContext) marshalOPostEdge2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPostEdge(ctx context.Context, sel ast.SelectionSet, v []*ent.PostEdge) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalOPostEdge2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPostEdge(ctx, sel, v[i])
+		return ec.marshalOPostEdge2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPostEdge(ctx, sel, v[i])
 	})
 
 	return ret
 }
 
-func (ec *executionContext) marshalOPostEdge2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPostEdge(ctx context.Context, sel ast.SelectionSet, v *ent.PostEdge) graphql.Marshaler {
+func (ec *executionContext) marshalOPostEdge2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPostEdge(ctx context.Context, sel ast.SelectionSet, v *ent.PostEdge) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._PostEdge(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalOPostOrder2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPostOrderᚄ(ctx context.Context, v any) ([]*ent.PostOrder, error) {
+func (ec *executionContext) unmarshalOPostOrder2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPostOrderᚄ(ctx context.Context, v any) ([]*ent.PostOrder, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -9928,7 +9928,7 @@ func (ec *executionContext) unmarshalOPostOrder2ᚕᚖgithubᚗcomᚋkhanakiaᚋ
 	res := make([]*ent.PostOrder, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNPostOrder2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPostOrder(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNPostOrder2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPostOrder(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -9936,7 +9936,7 @@ func (ec *executionContext) unmarshalOPostOrder2ᚕᚖgithubᚗcomᚋkhanakiaᚋ
 	return res, nil
 }
 
-func (ec *executionContext) unmarshalOPostWhereInput2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPostWhereInputᚄ(ctx context.Context, v any) ([]*ent.PostWhereInput, error) {
+func (ec *executionContext) unmarshalOPostWhereInput2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPostWhereInputᚄ(ctx context.Context, v any) ([]*ent.PostWhereInput, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -9946,7 +9946,7 @@ func (ec *executionContext) unmarshalOPostWhereInput2ᚕᚖgithubᚗcomᚋkhanak
 	res := make([]*ent.PostWhereInput, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNPostWhereInput2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPostWhereInput(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNPostWhereInput2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPostWhereInput(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -9954,7 +9954,7 @@ func (ec *executionContext) unmarshalOPostWhereInput2ᚕᚖgithubᚗcomᚋkhanak
 	return res, nil
 }
 
-func (ec *executionContext) unmarshalOPostWhereInput2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐPostWhereInput(ctx context.Context, v any) (*ent.PostWhereInput, error) {
+func (ec *executionContext) unmarshalOPostWhereInput2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐPostWhereInput(ctx context.Context, v any) (*ent.PostWhereInput, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -10028,14 +10028,14 @@ func (ec *executionContext) marshalOString2ᚖstring(ctx context.Context, sel as
 	return res
 }
 
-func (ec *executionContext) marshalOTag2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTagᚄ(ctx context.Context, sel ast.SelectionSet, v []*ent.Tag) graphql.Marshaler {
+func (ec *executionContext) marshalOTag2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTagᚄ(ctx context.Context, sel ast.SelectionSet, v []*ent.Tag) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalNTag2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTag(ctx, sel, v[i])
+		return ec.marshalNTag2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTag(ctx, sel, v[i])
 	})
 
 	for _, e := range ret {
@@ -10047,34 +10047,34 @@ func (ec *executionContext) marshalOTag2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋt
 	return ret
 }
 
-func (ec *executionContext) marshalOTag2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTag(ctx context.Context, sel ast.SelectionSet, v *ent.Tag) graphql.Marshaler {
+func (ec *executionContext) marshalOTag2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTag(ctx context.Context, sel ast.SelectionSet, v *ent.Tag) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Tag(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOTagEdge2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTagEdge(ctx context.Context, sel ast.SelectionSet, v []*ent.TagEdge) graphql.Marshaler {
+func (ec *executionContext) marshalOTagEdge2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTagEdge(ctx context.Context, sel ast.SelectionSet, v []*ent.TagEdge) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalOTagEdge2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTagEdge(ctx, sel, v[i])
+		return ec.marshalOTagEdge2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTagEdge(ctx, sel, v[i])
 	})
 
 	return ret
 }
 
-func (ec *executionContext) marshalOTagEdge2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTagEdge(ctx context.Context, sel ast.SelectionSet, v *ent.TagEdge) graphql.Marshaler {
+func (ec *executionContext) marshalOTagEdge2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTagEdge(ctx context.Context, sel ast.SelectionSet, v *ent.TagEdge) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._TagEdge(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalOTagOrder2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTagOrderᚄ(ctx context.Context, v any) ([]*ent.TagOrder, error) {
+func (ec *executionContext) unmarshalOTagOrder2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTagOrderᚄ(ctx context.Context, v any) ([]*ent.TagOrder, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -10084,7 +10084,7 @@ func (ec *executionContext) unmarshalOTagOrder2ᚕᚖgithubᚗcomᚋkhanakiaᚋe
 	res := make([]*ent.TagOrder, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNTagOrder2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTagOrder(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNTagOrder2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTagOrder(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -10092,7 +10092,7 @@ func (ec *executionContext) unmarshalOTagOrder2ᚕᚖgithubᚗcomᚋkhanakiaᚋe
 	return res, nil
 }
 
-func (ec *executionContext) unmarshalOTagWhereInput2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTagWhereInputᚄ(ctx context.Context, v any) ([]*ent.TagWhereInput, error) {
+func (ec *executionContext) unmarshalOTagWhereInput2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTagWhereInputᚄ(ctx context.Context, v any) ([]*ent.TagWhereInput, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -10102,7 +10102,7 @@ func (ec *executionContext) unmarshalOTagWhereInput2ᚕᚖgithubᚗcomᚋkhanaki
 	res := make([]*ent.TagWhereInput, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNTagWhereInput2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTagWhereInput(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNTagWhereInput2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTagWhereInput(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -10110,7 +10110,7 @@ func (ec *executionContext) unmarshalOTagWhereInput2ᚕᚖgithubᚗcomᚋkhanaki
 	return res, nil
 }
 
-func (ec *executionContext) unmarshalOTagWhereInput2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐTagWhereInput(ctx context.Context, v any) (*ent.TagWhereInput, error) {
+func (ec *executionContext) unmarshalOTagWhereInput2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐTagWhereInput(ctx context.Context, v any) (*ent.TagWhereInput, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -10172,34 +10172,34 @@ func (ec *executionContext) marshalOTime2ᚖtimeᚐTime(ctx context.Context, sel
 	return res
 }
 
-func (ec *executionContext) marshalOUser2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUser(ctx context.Context, sel ast.SelectionSet, v *ent.User) graphql.Marshaler {
+func (ec *executionContext) marshalOUser2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUser(ctx context.Context, sel ast.SelectionSet, v *ent.User) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._User(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOUserEdge2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUserEdge(ctx context.Context, sel ast.SelectionSet, v []*ent.UserEdge) graphql.Marshaler {
+func (ec *executionContext) marshalOUserEdge2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUserEdge(ctx context.Context, sel ast.SelectionSet, v []*ent.UserEdge) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalOUserEdge2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUserEdge(ctx, sel, v[i])
+		return ec.marshalOUserEdge2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUserEdge(ctx, sel, v[i])
 	})
 
 	return ret
 }
 
-func (ec *executionContext) marshalOUserEdge2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUserEdge(ctx context.Context, sel ast.SelectionSet, v *ent.UserEdge) graphql.Marshaler {
+func (ec *executionContext) marshalOUserEdge2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUserEdge(ctx context.Context, sel ast.SelectionSet, v *ent.UserEdge) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._UserEdge(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalOUserOrder2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUserOrderᚄ(ctx context.Context, v any) ([]*ent.UserOrder, error) {
+func (ec *executionContext) unmarshalOUserOrder2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUserOrderᚄ(ctx context.Context, v any) ([]*ent.UserOrder, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -10209,7 +10209,7 @@ func (ec *executionContext) unmarshalOUserOrder2ᚕᚖgithubᚗcomᚋkhanakiaᚋ
 	res := make([]*ent.UserOrder, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNUserOrder2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUserOrder(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNUserOrder2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUserOrder(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -10217,7 +10217,7 @@ func (ec *executionContext) unmarshalOUserOrder2ᚕᚖgithubᚗcomᚋkhanakiaᚋ
 	return res, nil
 }
 
-func (ec *executionContext) unmarshalOUserStatus2ᚕgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatusᚄ(ctx context.Context, v any) ([]user.Status, error) {
+func (ec *executionContext) unmarshalOUserStatus2ᚕgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatusᚄ(ctx context.Context, v any) ([]user.Status, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -10227,7 +10227,7 @@ func (ec *executionContext) unmarshalOUserStatus2ᚕgithubᚗcomᚋkhanakiaᚋen
 	res := make([]user.Status, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNUserStatus2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatus(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNUserStatus2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatus(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -10235,14 +10235,14 @@ func (ec *executionContext) unmarshalOUserStatus2ᚕgithubᚗcomᚋkhanakiaᚋen
 	return res, nil
 }
 
-func (ec *executionContext) marshalOUserStatus2ᚕgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatusᚄ(ctx context.Context, sel ast.SelectionSet, v []user.Status) graphql.Marshaler {
+func (ec *executionContext) marshalOUserStatus2ᚕgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatusᚄ(ctx context.Context, sel ast.SelectionSet, v []user.Status) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalNUserStatus2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatus(ctx, sel, v[i])
+		return ec.marshalNUserStatus2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatus(ctx, sel, v[i])
 	})
 
 	for _, e := range ret {
@@ -10254,7 +10254,7 @@ func (ec *executionContext) marshalOUserStatus2ᚕgithubᚗcomᚋkhanakiaᚋentx
 	return ret
 }
 
-func (ec *executionContext) unmarshalOUserStatus2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatus(ctx context.Context, v any) (*user.Status, error) {
+func (ec *executionContext) unmarshalOUserStatus2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatus(ctx context.Context, v any) (*user.Status, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -10263,14 +10263,14 @@ func (ec *executionContext) unmarshalOUserStatus2ᚖgithubᚗcomᚋkhanakiaᚋen
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalOUserStatus2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatus(ctx context.Context, sel ast.SelectionSet, v *user.Status) graphql.Marshaler {
+func (ec *executionContext) marshalOUserStatus2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚋuserᚐStatus(ctx context.Context, sel ast.SelectionSet, v *user.Status) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return v
 }
 
-func (ec *executionContext) unmarshalOUserWhereInput2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUserWhereInputᚄ(ctx context.Context, v any) ([]*ent.UserWhereInput, error) {
+func (ec *executionContext) unmarshalOUserWhereInput2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUserWhereInputᚄ(ctx context.Context, v any) ([]*ent.UserWhereInput, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -10280,7 +10280,7 @@ func (ec *executionContext) unmarshalOUserWhereInput2ᚕᚖgithubᚗcomᚋkhanak
 	res := make([]*ent.UserWhereInput, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNUserWhereInput2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUserWhereInput(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNUserWhereInput2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUserWhereInput(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -10288,7 +10288,7 @@ func (ec *executionContext) unmarshalOUserWhereInput2ᚕᚖgithubᚗcomᚋkhanak
 	return res, nil
 }
 
-func (ec *executionContext) unmarshalOUserWhereInput2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUserWhereInput(ctx context.Context, v any) (*ent.UserWhereInput, error) {
+func (ec *executionContext) unmarshalOUserWhereInput2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUserWhereInput(ctx context.Context, v any) (*ent.UserWhereInput, error) {
 	if v == nil {
 		return nil, nil
 	}

@@ -25,10 +25,10 @@ import (
 	entsql "entgo.io/ent/dialect/sql"
 	_ "modernc.org/sqlite"
 
-	"github.com/khanakia/entx/entpoly/examples/basic/ent"
-	"github.com/khanakia/entx/entpoly/examples/basic/ent/comment"
-	"github.com/khanakia/entx/entpoly/examples/basic/ent/image"
-	"github.com/khanakia/entx/entpoly/examples/basic/ent/post"
+	"github.com/ubgo/entx/entpoly/examples/basic/ent"
+	"github.com/ubgo/entx/entpoly/examples/basic/ent/comment"
+	"github.com/ubgo/entx/entpoly/examples/basic/ent/image"
+	"github.com/ubgo/entx/entpoly/examples/basic/ent/post"
 )
 
 // openTestClient spins up an in-memory SQLite database via the pure-Go

@@ -8,8 +8,8 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/testent/ent/profile"
-	"github.com/khanakia/entx/testent/ent/user"
+	"github.com/ubgo/entx/testent/ent/profile"
+	"github.com/ubgo/entx/testent/ent/user"
 )
 
 // User is the model entity for the User schema.

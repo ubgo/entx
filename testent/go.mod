@@ -1,12 +1,12 @@
-module github.com/khanakia/entx/testent
+module github.com/ubgo/entx/testent
 
 go 1.26.1
 
-replace github.com/khanakia/entx/entcascade => ../entcascade
+replace github.com/ubgo/entx/entcascade => ../entcascade
 
 require (
 	entgo.io/ent v0.14.6
-	github.com/khanakia/entx/entcascade v0.0.0
+	github.com/ubgo/entx/entcascade v0.0.0
 	modernc.org/sqlite v1.50.1
 )
 

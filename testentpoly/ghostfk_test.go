@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/khanakia/entx/testentpoly/ent"
+	"github.com/ubgo/entx/testentpoly/ent"
 )
 
 // TestGhostFK_NoLeftoverFields — scenario 17.

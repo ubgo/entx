@@ -14,13 +14,13 @@ import (
 	entsql "entgo.io/ent/dialect/sql"
 	"github.com/99designs/gqlgen/graphql/handler"
 
-	"github.com/khanakia/entx/testentgqlmulti/api/apidash"
-	"github.com/khanakia/entx/testentgqlmulti/api/apimobile"
-	"github.com/khanakia/entx/testentgqlmulti/api/apipub"
-	"github.com/khanakia/entx/testentgqlmulti/ent"
-	"github.com/khanakia/entx/testentgqlmulti/ent/migrate"
+	"github.com/ubgo/entx/testentgqlmulti/api/apidash"
+	"github.com/ubgo/entx/testentgqlmulti/api/apimobile"
+	"github.com/ubgo/entx/testentgqlmulti/api/apipub"
+	"github.com/ubgo/entx/testentgqlmulti/ent"
+	"github.com/ubgo/entx/testentgqlmulti/ent/migrate"
 
-	_ "github.com/khanakia/entx/testentgqlmulti/ent/runtime"
+	_ "github.com/ubgo/entx/testentgqlmulti/ent/runtime"
 	_ "modernc.org/sqlite"
 )
 

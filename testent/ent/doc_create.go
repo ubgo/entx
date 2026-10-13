@@ -9,9 +9,9 @@ import (
 
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/testent/ent/doc"
-	"github.com/khanakia/entx/testent/ent/note"
-	"github.com/khanakia/entx/testent/ent/workspace"
+	"github.com/ubgo/entx/testent/ent/doc"
+	"github.com/ubgo/entx/testent/ent/note"
+	"github.com/ubgo/entx/testent/ent/workspace"
 )
 
 // DocCreate is the builder for creating a Doc entity.

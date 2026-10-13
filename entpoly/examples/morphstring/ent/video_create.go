@@ -9,7 +9,7 @@ import (
 
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/entpoly/examples/morphstring/ent/video"
+	"github.com/ubgo/entx/entpoly/examples/morphstring/ent/video"
 )
 
 // VideoCreate is the builder for creating a Video entity.

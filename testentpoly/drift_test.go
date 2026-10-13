@@ -37,11 +37,11 @@ func writeDriftHarness(t *testing.T, dir string, schemaFiles map[string]string) 
 
 go 1.26.1
 
-replace github.com/khanakia/entx/entpoly => ` + abs + `
+replace github.com/ubgo/entx/entpoly => ` + abs + `
 
 require (
 	entgo.io/ent v0.14.6
-	github.com/khanakia/entx/entpoly v0.0.0-00010101000000-000000000000
+	github.com/ubgo/entx/entpoly v0.0.0-00010101000000-000000000000
 )
 `
 	if err := os.WriteFile(filepath.Join(dir, "go.mod"), []byte(goMod), 0o644); err != nil {
@@ -58,7 +58,7 @@ import (
 	"entgo.io/ent/entc"
 	"entgo.io/ent/entc/gen"
 
-	"github.com/khanakia/entx/entpoly"
+	"github.com/ubgo/entx/entpoly"
 )
 
 func main() {
@@ -149,7 +149,7 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/schema/field"
 
-	"github.com/khanakia/entx/entpoly"
+	"github.com/ubgo/entx/entpoly"
 )
 
 type Comment struct{ ent.Schema }

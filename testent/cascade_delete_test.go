@@ -8,11 +8,11 @@ import (
 
 	"entgo.io/ent/dialect"
 	entsql "entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/testent/ent"
-	"github.com/khanakia/entx/testent/ent/enttest"
-	"github.com/khanakia/entx/testent/ent/migrate"
+	"github.com/ubgo/entx/testent/ent"
+	"github.com/ubgo/entx/testent/ent/enttest"
+	"github.com/ubgo/entx/testent/ent/migrate"
 
-	_ "github.com/khanakia/entx/testent/ent/runtime"
+	_ "github.com/ubgo/entx/testent/ent/runtime"
 	_ "modernc.org/sqlite"
 )
 

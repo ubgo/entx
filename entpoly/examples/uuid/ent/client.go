@@ -10,14 +10,14 @@ import (
 	"reflect"
 
 	"github.com/google/uuid"
-	"github.com/khanakia/entx/entpoly/examples/uuid/ent/migrate"
+	"github.com/ubgo/entx/entpoly/examples/uuid/ent/migrate"
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/entpoly/examples/uuid/ent/annotation"
-	"github.com/khanakia/entx/entpoly/examples/uuid/ent/document"
-	"github.com/khanakia/entx/entpoly/examples/uuid/ent/report"
+	"github.com/ubgo/entx/entpoly/examples/uuid/ent/annotation"
+	"github.com/ubgo/entx/entpoly/examples/uuid/ent/document"
+	"github.com/ubgo/entx/entpoly/examples/uuid/ent/report"
 )
 
 // Client is the client that holds all ent builders.

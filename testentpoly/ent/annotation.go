@@ -9,7 +9,7 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"github.com/google/uuid"
-	"github.com/khanakia/entx/testentpoly/ent/annotation"
+	"github.com/ubgo/entx/testentpoly/ent/annotation"
 )
 
 // Annotation is the model entity for the Annotation schema.

@@ -9,9 +9,9 @@ import (
 
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/testent/ent/post"
-	"github.com/khanakia/entx/testent/ent/profile"
-	"github.com/khanakia/entx/testent/ent/user"
+	"github.com/ubgo/entx/testent/ent/post"
+	"github.com/ubgo/entx/testent/ent/profile"
+	"github.com/ubgo/entx/testent/ent/user"
 )
 
 // UserCreate is the builder for creating a User entity.

@@ -6,7 +6,7 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/schema/field"
 
-	"github.com/khanakia/entx/entpoly"
+	"github.com/ubgo/entx/entpoly"
 )
 
 // Post is a polymorphic parent — Comments belong to it, an Image features

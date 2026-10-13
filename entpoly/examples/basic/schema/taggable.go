@@ -4,7 +4,7 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/schema/field"
 
-	"github.com/khanakia/entx/entpoly"
+	"github.com/ubgo/entx/entpoly"
 )
 
 // Taggable is the polymorphic pivot for the Tag ↔ Post/Video M2M. It is a

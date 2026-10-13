@@ -12,7 +12,7 @@
 //		"entgo.io/ent/entc"
 //		entcgen "entgo.io/ent/entc/gen"
 //
-//		"github.com/khanakia/entx/enttui"
+//		"github.com/ubgo/entx/enttui"
 //	)
 //
 //	func main() {
@@ -35,7 +35,7 @@
 // Two calls in one main.go, one `go generate ./...` runs both passes.
 package enttui
 
-import "github.com/khanakia/entx/enttui/codegen"
+import "github.com/ubgo/entx/enttui/codegen"
 
 // Config is the top-level codegen configuration. Mirrors entc's
 // `gen.Config` in shape so the two APIs feel symmetric.

@@ -1,4 +1,4 @@
-module github.com/khanakia/entx/entgqlmulti
+module github.com/ubgo/entx/entgqlmulti
 
 go 1.26.1
 

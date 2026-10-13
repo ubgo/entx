@@ -1,4 +1,4 @@
-module github.com/khanakia/entx/entcascade
+module github.com/ubgo/entx/entcascade
 
 go 1.26.1
 

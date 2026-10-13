@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/khanakia/entx/testent/ent"
+	"github.com/ubgo/entx/testent/ent"
 )
 
 // The ArticleFunc type is an adapter to allow the use of ordinary

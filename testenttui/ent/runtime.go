@@ -6,11 +6,11 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/khanakia/entx/testenttui/ent/comment"
-	"github.com/khanakia/entx/testenttui/ent/post"
-	"github.com/khanakia/entx/testenttui/ent/tag"
-	"github.com/khanakia/entx/testenttui/ent/user"
-	"github.com/khanakia/entx/testenttui/schema"
+	"github.com/ubgo/entx/testenttui/ent/comment"
+	"github.com/ubgo/entx/testenttui/ent/post"
+	"github.com/ubgo/entx/testenttui/ent/tag"
+	"github.com/ubgo/entx/testenttui/ent/user"
+	"github.com/ubgo/entx/testenttui/schema"
 )
 
 // The init function reads all schema descriptors with runtime code

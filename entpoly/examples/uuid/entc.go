@@ -8,13 +8,13 @@ import (
 	"entgo.io/ent/entc"
 	"entgo.io/ent/entc/gen"
 
-	"github.com/khanakia/entx/entpoly"
+	"github.com/ubgo/entx/entpoly"
 )
 
 func main() {
 	if err := entc.Generate("./schema", &gen.Config{
 		Target:  "./ent",
-		Package: "github.com/khanakia/entx/entpoly/examples/uuid/ent",
+		Package: "github.com/ubgo/entx/entpoly/examples/uuid/ent",
 	}, entc.Extensions(entpoly.NewExtension())); err != nil {
 		log.Fatalf("running ent codegen: %v", err)
 	}

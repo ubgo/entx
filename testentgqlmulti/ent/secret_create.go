@@ -9,8 +9,8 @@ import (
 
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/testentgqlmulti/ent/secret"
-	"github.com/khanakia/entx/testentgqlmulti/ent/user"
+	"github.com/ubgo/entx/testentgqlmulti/ent/secret"
+	"github.com/ubgo/entx/testentgqlmulti/ent/user"
 )
 
 // SecretCreate is the builder for creating a Secret entity.

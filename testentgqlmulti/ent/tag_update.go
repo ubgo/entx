@@ -10,9 +10,9 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/testentgqlmulti/ent/post"
-	"github.com/khanakia/entx/testentgqlmulti/ent/predicate"
-	"github.com/khanakia/entx/testentgqlmulti/ent/tag"
+	"github.com/ubgo/entx/testentgqlmulti/ent/post"
+	"github.com/ubgo/entx/testentgqlmulti/ent/predicate"
+	"github.com/ubgo/entx/testentgqlmulti/ent/tag"
 )
 
 // TagUpdate is the builder for updating Tag entities.

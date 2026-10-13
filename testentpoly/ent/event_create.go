@@ -9,7 +9,7 @@ import (
 
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/testentpoly/ent/event"
+	"github.com/ubgo/entx/testentpoly/ent/event"
 )
 
 // EventCreate is the builder for creating a Event entity.

@@ -8,7 +8,7 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/testent/ent/category"
+	"github.com/ubgo/entx/testent/ent/category"
 )
 
 // Category is the model entity for the Category schema.

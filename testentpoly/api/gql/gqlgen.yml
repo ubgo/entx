@@ -17,7 +17,7 @@ resolver:
   filename_template: "{name}.resolvers.go"
 
 autobind:
-  - "github.com/khanakia/entx/testentpoly/ent"
+  - "github.com/ubgo/entx/testentpoly/ent"
 
 models:
   ID:
@@ -27,6 +27,6 @@ models:
   UUID:
     model: github.com/99designs/gqlgen/graphql.String
   Commentable:
-    model: github.com/khanakia/entx/testentpoly/ent.Commentable
+    model: github.com/ubgo/entx/testentpoly/ent.Commentable
   AnnotationTarget:
-    model: github.com/khanakia/entx/testentpoly/ent.AnnotationTarget
+    model: github.com/ubgo/entx/testentpoly/ent.AnnotationTarget

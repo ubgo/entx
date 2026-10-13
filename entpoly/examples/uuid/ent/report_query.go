@@ -12,8 +12,8 @@ import (
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
-	"github.com/khanakia/entx/entpoly/examples/uuid/ent/predicate"
-	"github.com/khanakia/entx/entpoly/examples/uuid/ent/report"
+	"github.com/ubgo/entx/entpoly/examples/uuid/ent/predicate"
+	"github.com/ubgo/entx/entpoly/examples/uuid/ent/report"
 )
 
 // ReportQuery is the builder for querying Report entities.

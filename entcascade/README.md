@@ -98,7 +98,7 @@ The extension inspects edges at codegen time and generates the same delete logic
 ## Installation
 
 ```bash
-go get github.com/khanakia/entx/entcascade
+go get github.com/ubgo/entx/entcascade
 ```
 
 ## Setup
@@ -115,7 +115,7 @@ import (
 
     "entgo.io/ent/entc"
     "entgo.io/ent/entc/gen"
-    "github.com/khanakia/entx/entcascade"
+    "github.com/ubgo/entx/entcascade"
 )
 
 func main() {

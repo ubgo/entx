@@ -8,9 +8,9 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/testent/ent/member"
-	"github.com/khanakia/entx/testent/ent/team"
-	"github.com/khanakia/entx/testent/ent/user"
+	"github.com/ubgo/entx/testent/ent/member"
+	"github.com/ubgo/entx/testent/ent/team"
+	"github.com/ubgo/entx/testent/ent/user"
 )
 
 // Member is the model entity for the Member schema.

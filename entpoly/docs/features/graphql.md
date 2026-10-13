@@ -21,7 +21,7 @@ import (
     "entgo.io/ent"
     "entgo.io/ent/schema/field"
 
-    "github.com/khanakia/entx/entpoly"
+    "github.com/ubgo/entx/entpoly"
 )
 
 type Comment struct{ ent.Schema }
@@ -65,7 +65,7 @@ import (
     "entgo.io/ent/entc"
     "entgo.io/ent/entc/gen"
 
-    "github.com/khanakia/entx/entpoly"
+    "github.com/ubgo/entx/entpoly"
 )
 
 func main() {

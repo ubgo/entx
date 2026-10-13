@@ -8,7 +8,7 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/entpoly/examples/morphstring/ent/image"
+	"github.com/ubgo/entx/entpoly/examples/morphstring/ent/image"
 )
 
 // Image is the model entity for the Image schema.

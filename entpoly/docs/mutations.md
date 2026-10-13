@@ -91,7 +91,7 @@ $tag->posts()->sync($postIDs);
 ent + entpoly:
 
 ```go
-import "github.com/khanakia/entx/entpoly/helper"
+import "github.com/ubgo/entx/entpoly/helper"
 
 // 1. Read currently-attached parent IDs.
 attached, _ := client.Taggable.Query().

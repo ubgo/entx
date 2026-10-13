@@ -8,7 +8,7 @@ import (
 	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"
 
-	enttui "github.com/khanakia/entx/enttui"
+	enttui "github.com/ubgo/entx/enttui"
 )
 
 // Post — exercises: enum + chip tones + status, body, default-sort,

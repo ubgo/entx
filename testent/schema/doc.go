@@ -6,7 +6,7 @@ import (
 	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"
 
-	"github.com/khanakia/entx/entcascade"
+	"github.com/ubgo/entx/entcascade"
 )
 
 // Doc is the INTERMEDIATE type for the nested soft-delete regression test.
