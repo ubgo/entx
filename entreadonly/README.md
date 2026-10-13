@@ -229,6 +229,8 @@ Add `entreadonly.ReadOnly()` to its `Annotations()`. Nothing else — the extens
 
 ## License
 
+Apache-2.0 — see [`LICENSE`](../LICENSE).
+
 Part of the [entx](https://github.com/khanakia/entx) toolkit for the ent ORM.
 
 <sub>Keywords: ent ORM read-only entity, entgo disable create update delete, compile-time read-only ent schema, ent immutable model Go, prevent ent mutations, ent projection table, ent codegen strip builders, entgo read-only without ent.View, ent multi-module identity table.</sub>

@@ -139,6 +139,8 @@ Add it to the predicate: `entskiptable.Any(entskiptable.ByPrefix("auth_"), entsk
 
 ## License
 
+Apache-2.0 — see [`LICENSE`](../LICENSE).
+
 Part of the [entx](https://github.com/khanakia/entx) toolkit for the ent ORM.
 
 <sub>Keywords: ent ORM migration, entgo skip table, exclude table from ent auto-migration, ent DiffHook, ent read-only table, externally-owned table ent, ent multi-module shared database, prevent ent ALTER TABLE, Go ent Atlas migration hook.</sub>

@@ -189,4 +189,4 @@ Full mapping: [docs/laravel-parity.md](./docs/laravel-parity.md).
 
 ## License
 
-MIT
+Apache-2.0 — see [`LICENSE`](../LICENSE).
