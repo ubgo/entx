@@ -202,4 +202,4 @@ Requires [Task](https://taskfile.dev) and Go 1.22+.
 
 ## License
 
-MIT
+Apache-2.0 — see [`LICENSE`](LICENSE).
