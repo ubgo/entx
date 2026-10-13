@@ -1,13 +1,13 @@
-module github.com/khanakia/entx/testenttui
+module github.com/ubgo/entx/testenttui
 
 go 1.26.1
 
-replace github.com/khanakia/entx/enttui => ../enttui
+replace github.com/ubgo/entx/enttui => ../enttui
 
 require (
 	entgo.io/ent v0.14.6
 	github.com/google/uuid v1.6.0
-	github.com/khanakia/entx/enttui v0.0.0-00010101000000-000000000000
+	github.com/ubgo/entx/enttui v0.0.0-00010101000000-000000000000
 	modernc.org/sqlite v1.50.1
 )
 

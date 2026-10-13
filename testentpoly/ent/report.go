@@ -10,7 +10,7 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"github.com/google/uuid"
-	"github.com/khanakia/entx/testentpoly/ent/report"
+	"github.com/ubgo/entx/testentpoly/ent/report"
 )
 
 // Report is the model entity for the Report schema.

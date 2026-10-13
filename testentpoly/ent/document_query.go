@@ -12,8 +12,8 @@ import (
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
-	"github.com/khanakia/entx/testentpoly/ent/document"
-	"github.com/khanakia/entx/testentpoly/ent/predicate"
+	"github.com/ubgo/entx/testentpoly/ent/document"
+	"github.com/ubgo/entx/testentpoly/ent/predicate"
 )
 
 // DocumentQuery is the builder for querying Document entities.

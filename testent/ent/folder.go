@@ -8,8 +8,8 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/testent/ent/folder"
-	"github.com/khanakia/entx/testent/ent/workspace"
+	"github.com/ubgo/entx/testent/ent/folder"
+	"github.com/ubgo/entx/testent/ent/workspace"
 )
 
 // Folder is the model entity for the Folder schema.

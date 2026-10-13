@@ -6,8 +6,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/khanakia/entx/testentpoly/ent"
-	"github.com/khanakia/entx/testentpoly/ent/comment"
+	"github.com/ubgo/entx/testentpoly/ent"
+	"github.com/ubgo/entx/testentpoly/ent/comment"
 )
 
 // TestEagerLoad_BatchedPerType — scenario 4.

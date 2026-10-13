@@ -8,7 +8,7 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/testentpoly/ent/event"
+	"github.com/ubgo/entx/testentpoly/ent/event"
 )
 
 // Event is the model entity for the Event schema.

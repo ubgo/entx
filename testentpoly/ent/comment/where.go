@@ -4,7 +4,7 @@ package comment
 
 import (
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/testentpoly/ent/predicate"
+	"github.com/ubgo/entx/testentpoly/ent/predicate"
 )
 
 // ID filters vertices based on their ID field.

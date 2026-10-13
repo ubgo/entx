@@ -5,12 +5,12 @@ package enttest
 import (
 	"context"
 
-	"github.com/khanakia/entx/testentpoly/ent"
+	"github.com/ubgo/entx/testentpoly/ent"
 	// required by schema hooks.
-	_ "github.com/khanakia/entx/testentpoly/ent/runtime"
+	_ "github.com/ubgo/entx/testentpoly/ent/runtime"
 
 	"entgo.io/ent/dialect/sql/schema"
-	"github.com/khanakia/entx/testentpoly/ent/migrate"
+	"github.com/ubgo/entx/testentpoly/ent/migrate"
 )
 
 type (

@@ -38,5 +38,5 @@ _No changes since [0.1.0]._
 - `TESTS.md` — index of every scenario covered by the harness with the
   feature each one exercises.
 
-[Unreleased]: https://github.com/khanakia/entx/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/khanakia/entx/releases/tag/v0.1.0
+[Unreleased]: https://github.com/ubgo/entx/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/ubgo/entx/releases/tag/v0.1.0

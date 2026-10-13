@@ -8,7 +8,7 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/testentgqlmulti/ent/chatbot"
+	"github.com/ubgo/entx/testentgqlmulti/ent/chatbot"
 )
 
 // Chatbot is the model entity for the Chatbot schema.

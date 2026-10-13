@@ -8,8 +8,8 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/testent/ent/doc"
-	"github.com/khanakia/entx/testent/ent/workspace"
+	"github.com/ubgo/entx/testent/ent/doc"
+	"github.com/ubgo/entx/testent/ent/workspace"
 )
 
 // Doc is the model entity for the Doc schema.

@@ -1,13 +1,13 @@
 # entskiptable
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/khanakia/entx/entskiptable.svg)](https://pkg.go.dev/github.com/khanakia/entx/entskiptable)
+[![Go Reference](https://pkg.go.dev/badge/github.com/ubgo/entx/entskiptable.svg)](https://pkg.go.dev/github.com/ubgo/entx/entskiptable)
 [![Go 1.26+](https://img.shields.io/badge/go-1.26%2B-00ADD8)](https://go.dev)
 [![ent v0.14.x](https://img.shields.io/badge/ent-v0.14.x-7e3aed)](https://entgo.io)
 
 **Exclude externally-owned tables from [ent](https://entgo.io) auto-migration.** A tiny, composable migration `DiffHook` that stops `client.Schema.Create` from emitting `CREATE` / `ALTER` / `DROP` DDL against tables your ent client only *reads* — tables owned by another service, another ent client, a database view, or a hand-managed migration. Code-generation and foreign-key edges stay fully intact.
 
 ```bash
-go get github.com/khanakia/entx/entskiptable
+go get github.com/ubgo/entx/entskiptable
 ```
 
 ## What & why
@@ -39,7 +39,7 @@ Mark which tables are externally-owned when you run auto-migration:
 ```go
 import (
 	"entgo.io/ent/dialect/sql/schema"
-	"github.com/khanakia/entx/entskiptable"
+	"github.com/ubgo/entx/entskiptable"
 )
 
 err := client.Schema.Create(ctx,
@@ -141,6 +141,6 @@ Add it to the predicate: `entskiptable.Any(entskiptable.ByPrefix("auth_"), entsk
 
 Apache-2.0 — see [`LICENSE`](../LICENSE).
 
-Part of the [entx](https://github.com/khanakia/entx) toolkit for the ent ORM.
+Part of the [entx](https://github.com/ubgo/entx) toolkit for the ent ORM.
 
 <sub>Keywords: ent ORM migration, entgo skip table, exclude table from ent auto-migration, ent DiffHook, ent read-only table, externally-owned table ent, ent multi-module shared database, prevent ent ALTER TABLE, Go ent Atlas migration hook.</sub>

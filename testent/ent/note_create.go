@@ -10,8 +10,8 @@ import (
 
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/testent/ent/doc"
-	"github.com/khanakia/entx/testent/ent/note"
+	"github.com/ubgo/entx/testent/ent/doc"
+	"github.com/ubgo/entx/testent/ent/note"
 )
 
 // NoteCreate is the builder for creating a Note entity.

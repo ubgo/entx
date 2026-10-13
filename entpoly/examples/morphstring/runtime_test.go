@@ -14,8 +14,8 @@ import (
 	entsql "entgo.io/ent/dialect/sql"
 	_ "modernc.org/sqlite"
 
-	"github.com/khanakia/entx/entpoly/examples/morphstring/ent"
-	"github.com/khanakia/entx/entpoly/examples/morphstring/ent/comment"
+	"github.com/ubgo/entx/entpoly/examples/morphstring/ent"
+	"github.com/ubgo/entx/entpoly/examples/morphstring/ent/comment"
 )
 
 func openTestClient(t *testing.T) *ent.Client {

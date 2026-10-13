@@ -10,8 +10,8 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/testentpoly/ent/predicate"
-	"github.com/khanakia/entx/testentpoly/ent/taggable"
+	"github.com/ubgo/entx/testentpoly/ent/predicate"
+	"github.com/ubgo/entx/testentpoly/ent/taggable"
 )
 
 // TaggableUpdate is the builder for updating Taggable entities.

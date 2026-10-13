@@ -1,4 +1,4 @@
-module github.com/khanakia/entx/entskiptable
+module github.com/ubgo/entx/entskiptable
 
 go 1.26.1
 

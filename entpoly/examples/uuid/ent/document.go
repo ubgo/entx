@@ -10,7 +10,7 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"github.com/google/uuid"
-	"github.com/khanakia/entx/entpoly/examples/uuid/ent/document"
+	"github.com/ubgo/entx/entpoly/examples/uuid/ent/document"
 )
 
 // Document is the model entity for the Document schema.

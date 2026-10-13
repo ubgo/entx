@@ -8,8 +8,8 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/testent/ent/auditlog"
-	"github.com/khanakia/entx/testent/ent/team"
+	"github.com/ubgo/entx/testent/ent/auditlog"
+	"github.com/ubgo/entx/testent/ent/team"
 )
 
 // AuditLog is the model entity for the AuditLog schema.

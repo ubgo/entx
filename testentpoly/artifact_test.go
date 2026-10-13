@@ -18,8 +18,8 @@ import (
 	"github.com/vektah/gqlparser/v2"
 	"github.com/vektah/gqlparser/v2/ast"
 
-	"github.com/khanakia/entx/testentpoly/ent"
-	"github.com/khanakia/entx/testentpoly/ent/comment"
+	"github.com/ubgo/entx/testentpoly/ent"
+	"github.com/ubgo/entx/testentpoly/ent/comment"
 )
 
 // TestArtifact_GeneratedSymbols — scenario 25. Reflects over the ent

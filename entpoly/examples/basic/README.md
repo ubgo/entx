@@ -59,7 +59,7 @@ _, _ = comment.Update().SetCommentable(video).Save(ctx)
 _, _ = comment.Update().ClearCommentable().Save(ctx)
 
 // Read back-refs (v1) — use the typed predicate package directly:
-import "github.com/khanakia/entx/entpoly/examples/basic/ent/comment"
+import "github.com/ubgo/entx/entpoly/examples/basic/ent/comment"
 
 postComments, _ := client.Comment.Query().Where(
     comment.CommentableIDEQ(post.MorphID()),
@@ -70,7 +70,7 @@ postComments, _ := client.Comment.Query().Where(
 ## Tag a post via the polymorphic pivot
 
 ```go
-import "github.com/khanakia/entx/entpoly/examples/basic/ent/taggable"
+import "github.com/ubgo/entx/entpoly/examples/basic/ent/taggable"
 
 golang, _ := client.Tag.Create().SetName("golang").Save(ctx)
 

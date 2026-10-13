@@ -1,4 +1,4 @@
-module github.com/khanakia/entx/entpoly
+module github.com/ubgo/entx/entpoly
 
 go 1.26.1
 

@@ -7,8 +7,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/khanakia/entx/entpoly/helper"
-	"github.com/khanakia/entx/testentpoly/ent"
+	"github.com/ubgo/entx/entpoly/helper"
+	"github.com/ubgo/entx/testentpoly/ent"
 )
 
 // attachedTagIDs returns the tag_ids currently pivoted to the given Post.

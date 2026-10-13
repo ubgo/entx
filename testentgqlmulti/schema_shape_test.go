@@ -113,12 +113,12 @@ func TestSchemaShape_Apidash(t *testing.T) {
 	mustNotField(t, summary, "description")
 
 	// ChatbotSummary uses @goModel because the type name differs from the ent name.
-	if !hasGoModelDirective(summary, "github.com/khanakia/entx/testentgqlmulti/ent.Chatbot") {
+	if !hasGoModelDirective(summary, "github.com/ubgo/entx/testentgqlmulti/ent.Chatbot") {
 		t.Fatalf("ChatbotSummary missing @goModel directive; directives=%v", summary.Directives)
 	}
 
 	// Plain Chatbot type: no @goModel needed (type name == ent name).
-	if hasGoModelDirective(chatbot, "github.com/khanakia/entx/testentgqlmulti/ent.Chatbot") {
+	if hasGoModelDirective(chatbot, "github.com/ubgo/entx/testentgqlmulti/ent.Chatbot") {
 		t.Fatalf("Chatbot unexpectedly has @goModel (type name equals ent name)")
 	}
 
@@ -192,7 +192,7 @@ func TestSchemaShape_Apimobile(t *testing.T) {
 	}
 
 	// @goModel binds MobileUser back to ent.User.
-	if !hasGoModelDirective(mu, "github.com/khanakia/entx/testentgqlmulti/ent.User") {
+	if !hasGoModelDirective(mu, "github.com/ubgo/entx/testentgqlmulti/ent.User") {
 		t.Fatalf("MobileUser missing @goModel directive")
 	}
 }

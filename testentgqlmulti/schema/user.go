@@ -6,7 +6,7 @@ import (
 	"entgo.io/ent/schema"
 	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/entgqlmulti"
+	"github.com/ubgo/entx/entgqlmulti"
 )
 
 // User exercises: full CRUD in apidash, read-only subset "PublicUser" in apipub,

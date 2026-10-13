@@ -10,7 +10,7 @@ import (
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
-	"github.com/khanakia/entx/testentpoly/ent/annotation"
+	"github.com/ubgo/entx/testentpoly/ent/annotation"
 )
 
 // AnnotationCreate is the builder for creating a Annotation entity.

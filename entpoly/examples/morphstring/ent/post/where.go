@@ -4,7 +4,7 @@ package post
 
 import (
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/entpoly/examples/morphstring/ent/predicate"
+	"github.com/ubgo/entx/entpoly/examples/morphstring/ent/predicate"
 )
 
 // ID filters vertices based on their ID field.

@@ -10,8 +10,8 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/testentpoly/ent/event"
-	"github.com/khanakia/entx/testentpoly/ent/predicate"
+	"github.com/ubgo/entx/testentpoly/ent/event"
+	"github.com/ubgo/entx/testentpoly/ent/predicate"
 )
 
 // EventUpdate is the builder for updating Event entities.

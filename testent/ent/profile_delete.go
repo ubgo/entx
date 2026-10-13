@@ -8,8 +8,8 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/testent/ent/predicate"
-	"github.com/khanakia/entx/testent/ent/profile"
+	"github.com/ubgo/entx/testent/ent/predicate"
+	"github.com/ubgo/entx/testent/ent/profile"
 )
 
 // ProfileDelete is the builder for deleting a Profile entity.

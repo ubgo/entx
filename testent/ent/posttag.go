@@ -8,9 +8,9 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/testent/ent/post"
-	"github.com/khanakia/entx/testent/ent/posttag"
-	"github.com/khanakia/entx/testent/ent/tag"
+	"github.com/ubgo/entx/testent/ent/post"
+	"github.com/ubgo/entx/testent/ent/posttag"
+	"github.com/ubgo/entx/testent/ent/tag"
 )
 
 // PostTag is the model entity for the PostTag schema.

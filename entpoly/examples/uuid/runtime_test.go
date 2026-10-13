@@ -18,7 +18,7 @@ import (
 	"github.com/google/uuid"
 	_ "modernc.org/sqlite"
 
-	"github.com/khanakia/entx/entpoly/examples/uuid/ent"
+	"github.com/ubgo/entx/entpoly/examples/uuid/ent"
 )
 
 func openClient(t *testing.T) *ent.Client {

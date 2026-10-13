@@ -26,8 +26,8 @@ import (
 	"github.com/99designs/gqlgen/graphql/playground"
 	_ "modernc.org/sqlite"
 
-	"github.com/khanakia/entx/testentpoly/api/gql"
-	"github.com/khanakia/entx/testentpoly/ent"
+	"github.com/ubgo/entx/testentpoly/api/gql"
+	"github.com/ubgo/entx/testentpoly/ent"
 )
 
 func main() {

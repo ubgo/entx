@@ -8,8 +8,8 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/testent/ent/channel"
-	"github.com/khanakia/entx/testent/ent/folder"
+	"github.com/ubgo/entx/testent/ent/channel"
+	"github.com/ubgo/entx/testent/ent/folder"
 )
 
 // Channel is the model entity for the Channel schema.

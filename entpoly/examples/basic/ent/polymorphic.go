@@ -10,13 +10,13 @@ import (
 	"time"
 
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/entpoly/examples/basic/ent/comment"
-	"github.com/khanakia/entx/entpoly/examples/basic/ent/image"
-	"github.com/khanakia/entx/entpoly/examples/basic/ent/post"
-	"github.com/khanakia/entx/entpoly/examples/basic/ent/predicate"
-	"github.com/khanakia/entx/entpoly/examples/basic/ent/tag"
-	"github.com/khanakia/entx/entpoly/examples/basic/ent/taggable"
-	"github.com/khanakia/entx/entpoly/examples/basic/ent/video"
+	"github.com/ubgo/entx/entpoly/examples/basic/ent/comment"
+	"github.com/ubgo/entx/entpoly/examples/basic/ent/image"
+	"github.com/ubgo/entx/entpoly/examples/basic/ent/post"
+	"github.com/ubgo/entx/entpoly/examples/basic/ent/predicate"
+	"github.com/ubgo/entx/entpoly/examples/basic/ent/tag"
+	"github.com/ubgo/entx/entpoly/examples/basic/ent/taggable"
+	"github.com/ubgo/entx/entpoly/examples/basic/ent/video"
 )
 
 // Compile-time silence for the sql import when no per-parent

@@ -9,8 +9,8 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/testent/ent/doc"
-	"github.com/khanakia/entx/testent/ent/note"
+	"github.com/ubgo/entx/testent/ent/doc"
+	"github.com/ubgo/entx/testent/ent/note"
 )
 
 // Note is the model entity for the Note schema.

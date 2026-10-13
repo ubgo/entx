@@ -4,9 +4,9 @@
 //
 //	cd testenttui
 //	go run entc.go                                   # ent codegen
-//	go run github.com/khanakia/entx/enttui/cmd/enttui \
+//	go run github.com/ubgo/entx/enttui/cmd/enttui \
 //	    --schema ./schema --out ./tui/gen \
-//	    --package gen --ent-pkg github.com/khanakia/entx/testenttui/ent
+//	    --package gen --ent-pkg github.com/ubgo/entx/testenttui/ent
 //
 // Run:
 //
@@ -22,9 +22,9 @@ import (
 	entsql "entgo.io/ent/dialect/sql"
 	_ "modernc.org/sqlite"
 
-	"github.com/khanakia/entx/enttui/runtime"
-	"github.com/khanakia/entx/testenttui/ent"
-	"github.com/khanakia/entx/testenttui/tui/gen"
+	"github.com/ubgo/entx/enttui/runtime"
+	"github.com/ubgo/entx/testenttui/ent"
+	"github.com/ubgo/entx/testenttui/tui/gen"
 )
 
 func main() {

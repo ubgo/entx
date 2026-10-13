@@ -8,8 +8,8 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/testent/ent/comment"
-	"github.com/khanakia/entx/testent/ent/post"
+	"github.com/ubgo/entx/testent/ent/comment"
+	"github.com/ubgo/entx/testent/ent/post"
 )
 
 // Comment is the model entity for the Comment schema.

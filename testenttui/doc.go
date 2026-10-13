@@ -1,5 +1,5 @@
 // Package testenttui is the runnable demo and test bed for the enttui
-// library (github.com/khanakia/entx/enttui).
+// library (github.com/ubgo/entx/enttui).
 //
 // HOW ./tui/gen IS PRODUCED
 //
@@ -9,7 +9,7 @@
 //     standard ent client). This is plain ent; nothing enttui-specific.
 //
 //  2. enttui register codegen — the enttui CLI
-//     (github.com/khanakia/entx/enttui/cmd/enttui) reads ./schema again,
+//     (github.com/ubgo/entx/enttui/cmd/enttui) reads ./schema again,
 //     inspects each entity's enttui.* annotations + its ID Go type, and
 //     writes one ./tui/gen/register_<entity>.go plus register_all.go.
 //     THIS is the step that produced ./tui/gen — there is intentionally
@@ -25,5 +25,5 @@
 //	task gen               # see Taskfile.yml
 //
 //go:generate go run entc.go
-//go:generate go run github.com/khanakia/entx/enttui/cmd/enttui --schema ./schema --out ./tui/gen --package gen --ent-pkg github.com/khanakia/entx/testenttui/ent
+//go:generate go run github.com/ubgo/entx/enttui/cmd/enttui --schema ./schema --out ./tui/gen --package gen --ent-pkg github.com/ubgo/entx/testenttui/ent
 package testenttui

@@ -10,10 +10,10 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/testent/ent/doc"
-	"github.com/khanakia/entx/testent/ent/note"
-	"github.com/khanakia/entx/testent/ent/predicate"
-	"github.com/khanakia/entx/testent/ent/workspace"
+	"github.com/ubgo/entx/testent/ent/doc"
+	"github.com/ubgo/entx/testent/ent/note"
+	"github.com/ubgo/entx/testent/ent/predicate"
+	"github.com/ubgo/entx/testent/ent/workspace"
 )
 
 // DocUpdate is the builder for updating Doc entities.

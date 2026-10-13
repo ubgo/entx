@@ -12,7 +12,7 @@ import (
 func main() {
 	if err := entc.Generate("./schema", &gen.Config{
 		Target:  "./ent",
-		Package: "github.com/khanakia/entx/testenttui/ent",
+		Package: "github.com/ubgo/entx/testenttui/ent",
 	}); err != nil {
 		log.Fatalf("running ent codegen: %v", err)
 	}

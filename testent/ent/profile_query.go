@@ -11,9 +11,9 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/testent/ent/predicate"
-	"github.com/khanakia/entx/testent/ent/profile"
-	"github.com/khanakia/entx/testent/ent/user"
+	"github.com/ubgo/entx/testent/ent/predicate"
+	"github.com/ubgo/entx/testent/ent/profile"
+	"github.com/ubgo/entx/testent/ent/user"
 )
 
 // ProfileQuery is the builder for querying Profile entities.

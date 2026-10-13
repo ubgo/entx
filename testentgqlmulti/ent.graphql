@@ -198,7 +198,7 @@ scalar Cursor
 An object with an ID.
 Follows the [Relay Global Object Identification Specification](https://relay.dev/graphql/objectidentification.htm)
 """
-interface Node @goModel(model: "github.com/khanakia/entx/testentgqlmulti/ent.Noder") {
+interface Node @goModel(model: "github.com/ubgo/entx/testentgqlmulti/ent.Noder") {
   """
   The id of the object.
   """
@@ -746,7 +746,7 @@ enum UserOrderField {
 """
 UserStatus is enum for the field status
 """
-enum UserStatus @goModel(model: "github.com/khanakia/entx/testentgqlmulti/ent/user.Status") {
+enum UserStatus @goModel(model: "github.com/ubgo/entx/testentgqlmulti/ent/user.Status") {
   active
   suspended
   banned

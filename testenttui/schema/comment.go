@@ -8,7 +8,7 @@ import (
 	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"
 
-	enttui "github.com/khanakia/entx/enttui"
+	enttui "github.com/ubgo/entx/enttui"
 )
 
 // Comment — child of both Post and User. Exercises two upward

@@ -10,8 +10,8 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/entpoly/examples/morphstring/ent/predicate"
-	"github.com/khanakia/entx/entpoly/examples/morphstring/ent/video"
+	"github.com/ubgo/entx/entpoly/examples/morphstring/ent/predicate"
+	"github.com/ubgo/entx/entpoly/examples/morphstring/ent/video"
 )
 
 // VideoUpdate is the builder for updating Video entities.

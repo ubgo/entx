@@ -8,7 +8,7 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/testentpoly/ent/folder"
+	"github.com/ubgo/entx/testentpoly/ent/folder"
 )
 
 // Folder is the model entity for the Folder schema.

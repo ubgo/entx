@@ -1,4 +1,4 @@
-module github.com/khanakia/entx/enttui
+module github.com/ubgo/entx/enttui
 
 go 1.26.1
 

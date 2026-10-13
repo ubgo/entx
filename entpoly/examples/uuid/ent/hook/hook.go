@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/khanakia/entx/entpoly/examples/uuid/ent"
+	"github.com/ubgo/entx/entpoly/examples/uuid/ent"
 )
 
 // The AnnotationFunc type is an adapter to allow the use of ordinary

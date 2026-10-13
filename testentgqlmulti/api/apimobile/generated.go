@@ -15,7 +15,7 @@ import (
 	"entgo.io/contrib/entgql"
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/introspection"
-	"github.com/khanakia/entx/testentgqlmulti/ent"
+	"github.com/ubgo/entx/testentgqlmulti/ent"
 	gqlparser "github.com/vektah/gqlparser/v2"
 	"github.com/vektah/gqlparser/v2/ast"
 )
@@ -480,7 +480,7 @@ func (ec *executionContext) _MobileUserConnection_edges(ctx context.Context, fie
 			return obj.Edges, nil
 		},
 		nil,
-		ec.marshalOMobileUserEdge2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋapiᚋapimobileᚐMobileUserEdge,
+		ec.marshalOMobileUserEdge2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋapiᚋapimobileᚐMobileUserEdge,
 		true,
 		false,
 	)
@@ -583,7 +583,7 @@ func (ec *executionContext) _MobileUserEdge_node(ctx context.Context, field grap
 			return obj.Node, nil
 		},
 		nil,
-		ec.marshalOMobileUser2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUser,
+		ec.marshalOMobileUser2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUser,
 		true,
 		false,
 	)
@@ -768,7 +768,7 @@ func (ec *executionContext) _Query_me(ctx context.Context, field graphql.Collect
 			return ec.Resolvers.Query().Me(ctx, fc.Args["after"].(*entgql.Cursor[int]), fc.Args["first"].(*int), fc.Args["before"].(*entgql.Cursor[int]), fc.Args["last"].(*int))
 		},
 		nil,
-		ec.marshalNMobileUserConnection2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋapiᚋapimobileᚐMobileUserConnection,
+		ec.marshalNMobileUserConnection2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋapiᚋapimobileᚐMobileUserConnection,
 		true,
 		true,
 	)
@@ -3035,11 +3035,11 @@ func (ec *executionContext) marshalNInt2int(ctx context.Context, sel ast.Selecti
 	return res
 }
 
-func (ec *executionContext) marshalNMobileUserConnection2githubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋapiᚋapimobileᚐMobileUserConnection(ctx context.Context, sel ast.SelectionSet, v MobileUserConnection) graphql.Marshaler {
+func (ec *executionContext) marshalNMobileUserConnection2githubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋapiᚋapimobileᚐMobileUserConnection(ctx context.Context, sel ast.SelectionSet, v MobileUserConnection) graphql.Marshaler {
 	return ec._MobileUserConnection(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNMobileUserConnection2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋapiᚋapimobileᚐMobileUserConnection(ctx context.Context, sel ast.SelectionSet, v *MobileUserConnection) graphql.Marshaler {
+func (ec *executionContext) marshalNMobileUserConnection2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋapiᚋapimobileᚐMobileUserConnection(ctx context.Context, sel ast.SelectionSet, v *MobileUserConnection) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -3296,27 +3296,27 @@ func (ec *executionContext) marshalOInt2ᚖint(ctx context.Context, sel ast.Sele
 	return res
 }
 
-func (ec *executionContext) marshalOMobileUser2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋentᚐUser(ctx context.Context, sel ast.SelectionSet, v *ent.User) graphql.Marshaler {
+func (ec *executionContext) marshalOMobileUser2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋentᚐUser(ctx context.Context, sel ast.SelectionSet, v *ent.User) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._MobileUser(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOMobileUserEdge2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋapiᚋapimobileᚐMobileUserEdge(ctx context.Context, sel ast.SelectionSet, v []*MobileUserEdge) graphql.Marshaler {
+func (ec *executionContext) marshalOMobileUserEdge2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋapiᚋapimobileᚐMobileUserEdge(ctx context.Context, sel ast.SelectionSet, v []*MobileUserEdge) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalOMobileUserEdge2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋapiᚋapimobileᚐMobileUserEdge(ctx, sel, v[i])
+		return ec.marshalOMobileUserEdge2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋapiᚋapimobileᚐMobileUserEdge(ctx, sel, v[i])
 	})
 
 	return ret
 }
 
-func (ec *executionContext) marshalOMobileUserEdge2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentgqlmultiᚋapiᚋapimobileᚐMobileUserEdge(ctx context.Context, sel ast.SelectionSet, v *MobileUserEdge) graphql.Marshaler {
+func (ec *executionContext) marshalOMobileUserEdge2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentgqlmultiᚋapiᚋapimobileᚐMobileUserEdge(ctx context.Context, sel ast.SelectionSet, v *MobileUserEdge) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}

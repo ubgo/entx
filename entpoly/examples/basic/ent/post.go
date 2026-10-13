@@ -9,7 +9,7 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/entpoly/examples/basic/ent/post"
+	"github.com/ubgo/entx/entpoly/examples/basic/ent/post"
 )
 
 // Post is the model entity for the Post schema.

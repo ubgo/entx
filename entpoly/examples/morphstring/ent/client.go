@@ -9,17 +9,17 @@ import (
 	"log"
 	"reflect"
 
-	"github.com/khanakia/entx/entpoly/examples/morphstring/ent/migrate"
+	"github.com/ubgo/entx/entpoly/examples/morphstring/ent/migrate"
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/entpoly/examples/morphstring/ent/bookmark"
-	"github.com/khanakia/entx/entpoly/examples/morphstring/ent/comment"
-	"github.com/khanakia/entx/entpoly/examples/morphstring/ent/image"
-	"github.com/khanakia/entx/entpoly/examples/morphstring/ent/post"
-	"github.com/khanakia/entx/entpoly/examples/morphstring/ent/sourcelink"
-	"github.com/khanakia/entx/entpoly/examples/morphstring/ent/video"
+	"github.com/ubgo/entx/entpoly/examples/morphstring/ent/bookmark"
+	"github.com/ubgo/entx/entpoly/examples/morphstring/ent/comment"
+	"github.com/ubgo/entx/entpoly/examples/morphstring/ent/image"
+	"github.com/ubgo/entx/entpoly/examples/morphstring/ent/post"
+	"github.com/ubgo/entx/entpoly/examples/morphstring/ent/sourcelink"
+	"github.com/ubgo/entx/entpoly/examples/morphstring/ent/video"
 )
 
 // Client is the client that holds all ent builders.

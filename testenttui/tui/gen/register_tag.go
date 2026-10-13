@@ -7,10 +7,10 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/google/uuid"
-	"github.com/khanakia/entx/testenttui/ent"
-	entTag "github.com/khanakia/entx/testenttui/ent/tag"
+	"github.com/ubgo/entx/testenttui/ent"
+	entTag "github.com/ubgo/entx/testenttui/ent/tag"
 
-	"github.com/khanakia/entx/enttui/runtime"
+	"github.com/ubgo/entx/enttui/runtime"
 )
 
 // registerTag wires *ent.Tag into the enttui runtime.

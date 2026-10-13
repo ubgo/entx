@@ -74,7 +74,7 @@ entc.Extensions(entpoly.NewExtension())
 Install the helper if you want the set-diff functions:
 
 ```bash
-go get github.com/khanakia/entx/entpoly/helper
+go get github.com/ubgo/entx/entpoly/helper
 ```
 
 ## Usage
@@ -102,7 +102,7 @@ tags,  _ := post.QueryTags(ctx)   // []*Tag — every tag on this post (auto-inv
 Sync / Toggle / SyncWithoutDetach via the helper:
 
 ```go
-import "github.com/khanakia/entx/entpoly/helper"
+import "github.com/ubgo/entx/entpoly/helper"
 
 // Current pivots attached to this post:
 cur := attachedTagIDs(ctx, client, post)   // []int — your helper

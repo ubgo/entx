@@ -2,7 +2,7 @@ version: "3"
 
 # testenttui — the runnable demo + test bed for the enttui library.
 #
-# enttui itself (github.com/khanakia/entx/enttui) is a pure library: it
+# enttui itself (github.com/ubgo/entx/enttui) is a pure library: it
 # has NO Taskfile and ships no example. Everything you need to exercise
 # it lives here. Run from this directory:
 #
@@ -15,8 +15,8 @@ version: "3"
 # Or from the repo root:  task -d testenttui <task>
 
 vars:
-  ENTTUI_CMD: github.com/khanakia/entx/enttui/cmd/enttui
-  ENT_PKG: github.com/khanakia/entx/testenttui/ent
+  ENTTUI_CMD: github.com/ubgo/entx/enttui/cmd/enttui
+  ENT_PKG: github.com/ubgo/entx/testenttui/ent
   GEN_OUT: ./tui/gen
   GEN_PKG: gen
 

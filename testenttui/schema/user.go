@@ -6,7 +6,7 @@ import (
 	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"
 
-	enttui "github.com/khanakia/entx/enttui"
+	enttui "github.com/ubgo/entx/enttui"
 )
 
 // User — a person who authors posts and comments. Exercises: title

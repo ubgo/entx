@@ -8,9 +8,9 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/testent/ent/category"
-	"github.com/khanakia/entx/testent/ent/post"
-	"github.com/khanakia/entx/testent/ent/user"
+	"github.com/ubgo/entx/testent/ent/category"
+	"github.com/ubgo/entx/testent/ent/post"
+	"github.com/ubgo/entx/testent/ent/user"
 )
 
 // Post is the model entity for the Post schema.

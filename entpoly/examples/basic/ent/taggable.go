@@ -8,7 +8,7 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/entpoly/examples/basic/ent/taggable"
+	"github.com/ubgo/entx/entpoly/examples/basic/ent/taggable"
 )
 
 // Taggable is the model entity for the Taggable schema.

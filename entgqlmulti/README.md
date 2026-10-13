@@ -13,7 +13,7 @@ Annotate your ent schemas with `entgqlmulti.ApiConfig()` to declare which types,
 ## Installation
 
 ```bash
-go get github.com/khanakia/entx/entgqlmulti
+go get github.com/ubgo/entx/entgqlmulti
 ```
 
 ## Setup
@@ -31,7 +31,7 @@ import (
     "entgo.io/contrib/entgql"
     "entgo.io/ent/entc"
     "entgo.io/ent/entc/gen"
-    "github.com/khanakia/entx/entgqlmulti"
+    "github.com/ubgo/entx/entgqlmulti"
 )
 
 func main() {

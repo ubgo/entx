@@ -14,7 +14,7 @@ import (
 
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/introspection"
-	"github.com/khanakia/entx/testentpoly/ent"
+	"github.com/ubgo/entx/testentpoly/ent"
 	gqlparser "github.com/vektah/gqlparser/v2"
 	"github.com/vektah/gqlparser/v2/ast"
 )
@@ -693,7 +693,7 @@ func (ec *executionContext) _Comment_commentable(ctx context.Context, field grap
 		},
 		nil,
 		func(ctx context.Context, selections ast.SelectionSet, v ent.CommentCommentableParent) graphql.Marshaler {
-			return ec.marshalOCommentable2githubᚗcomᚋkhanakiaᚋentxᚋtestentpolyᚋentᚐCommentCommentableParent(ctx, selections, v)
+			return ec.marshalOCommentable2githubᚗcomᚋubgoᚋentxᚋtestentpolyᚋentᚐCommentCommentableParent(ctx, selections, v)
 		},
 		true,
 		false,
@@ -878,7 +878,7 @@ func (ec *executionContext) _Query_comment(ctx context.Context, field graphql.Co
 		},
 		nil,
 		func(ctx context.Context, selections ast.SelectionSet, v *ent.Comment) graphql.Marshaler {
-			return ec.marshalOComment2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentpolyᚋentᚐComment(ctx, selections, v)
+			return ec.marshalOComment2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentpolyᚋentᚐComment(ctx, selections, v)
 		},
 		true,
 		false,
@@ -921,7 +921,7 @@ func (ec *executionContext) _Query_comments(ctx context.Context, field graphql.C
 		},
 		nil,
 		func(ctx context.Context, selections ast.SelectionSet, v []*ent.Comment) graphql.Marshaler {
-			return ec.marshalNComment2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentpolyᚋentᚐCommentᚄ(ctx, selections, v)
+			return ec.marshalNComment2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentpolyᚋentᚐCommentᚄ(ctx, selections, v)
 		},
 		true,
 		true,
@@ -954,7 +954,7 @@ func (ec *executionContext) _Query_post(ctx context.Context, field graphql.Colle
 		},
 		nil,
 		func(ctx context.Context, selections ast.SelectionSet, v *ent.Post) graphql.Marshaler {
-			return ec.marshalOPost2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentpolyᚋentᚐPost(ctx, selections, v)
+			return ec.marshalOPost2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentpolyᚋentᚐPost(ctx, selections, v)
 		},
 		true,
 		false,
@@ -998,7 +998,7 @@ func (ec *executionContext) _Query_video(ctx context.Context, field graphql.Coll
 		},
 		nil,
 		func(ctx context.Context, selections ast.SelectionSet, v *ent.Video) graphql.Marshaler {
-			return ec.marshalOVideo2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentpolyᚋentᚐVideo(ctx, selections, v)
+			return ec.marshalOVideo2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentpolyᚋentᚐVideo(ctx, selections, v)
 		},
 		true,
 		false,
@@ -1042,7 +1042,7 @@ func (ec *executionContext) _Query_document(ctx context.Context, field graphql.C
 		},
 		nil,
 		func(ctx context.Context, selections ast.SelectionSet, v *ent.Document) graphql.Marshaler {
-			return ec.marshalODocument2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentpolyᚋentᚐDocument(ctx, selections, v)
+			return ec.marshalODocument2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentpolyᚋentᚐDocument(ctx, selections, v)
 		},
 		true,
 		false,
@@ -3221,11 +3221,11 @@ func (ec *executionContext) marshalNBoolean2bool(ctx context.Context, sel ast.Se
 	return res
 }
 
-func (ec *executionContext) marshalNComment2ᚕᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentpolyᚋentᚐCommentᚄ(ctx context.Context, sel ast.SelectionSet, v []*ent.Comment) graphql.Marshaler {
+func (ec *executionContext) marshalNComment2ᚕᚖgithubᚗcomᚋubgoᚋentxᚋtestentpolyᚋentᚐCommentᚄ(ctx context.Context, sel ast.SelectionSet, v []*ent.Comment) graphql.Marshaler {
 	ret := graphql.MarshalSliceConcurrently(ctx, len(v), 0, false, func(ctx context.Context, i int) graphql.Marshaler {
 		fc := graphql.GetFieldContext(ctx)
 		fc.Result = &v[i]
-		return ec.marshalNComment2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentpolyᚋentᚐComment(ctx, sel, v[i])
+		return ec.marshalNComment2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentpolyᚋentᚐComment(ctx, sel, v[i])
 	})
 
 	for _, e := range ret {
@@ -3237,7 +3237,7 @@ func (ec *executionContext) marshalNComment2ᚕᚖgithubᚗcomᚋkhanakiaᚋentx
 	return ret
 }
 
-func (ec *executionContext) marshalNComment2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentpolyᚋentᚐComment(ctx context.Context, sel ast.SelectionSet, v *ent.Comment) graphql.Marshaler {
+func (ec *executionContext) marshalNComment2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentpolyᚋentᚐComment(ctx context.Context, sel ast.SelectionSet, v *ent.Comment) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			graphql.AddErrorf(ctx, "the requested element is null which the schema does not allow")
@@ -3482,28 +3482,28 @@ func (ec *executionContext) marshalOBoolean2ᚖbool(ctx context.Context, sel ast
 	return res
 }
 
-func (ec *executionContext) marshalOComment2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentpolyᚋentᚐComment(ctx context.Context, sel ast.SelectionSet, v *ent.Comment) graphql.Marshaler {
+func (ec *executionContext) marshalOComment2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentpolyᚋentᚐComment(ctx context.Context, sel ast.SelectionSet, v *ent.Comment) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Comment(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOCommentable2githubᚗcomᚋkhanakiaᚋentxᚋtestentpolyᚋentᚐCommentCommentableParent(ctx context.Context, sel ast.SelectionSet, v ent.CommentCommentableParent) graphql.Marshaler {
+func (ec *executionContext) marshalOCommentable2githubᚗcomᚋubgoᚋentxᚋtestentpolyᚋentᚐCommentCommentableParent(ctx context.Context, sel ast.SelectionSet, v ent.CommentCommentableParent) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Commentable(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalODocument2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentpolyᚋentᚐDocument(ctx context.Context, sel ast.SelectionSet, v *ent.Document) graphql.Marshaler {
+func (ec *executionContext) marshalODocument2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentpolyᚋentᚐDocument(ctx context.Context, sel ast.SelectionSet, v *ent.Document) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Document(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOPost2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentpolyᚋentᚐPost(ctx context.Context, sel ast.SelectionSet, v *ent.Post) graphql.Marshaler {
+func (ec *executionContext) marshalOPost2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentpolyᚋentᚐPost(ctx context.Context, sel ast.SelectionSet, v *ent.Post) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -3528,7 +3528,7 @@ func (ec *executionContext) marshalOString2ᚖstring(ctx context.Context, sel as
 	return res
 }
 
-func (ec *executionContext) marshalOVideo2ᚖgithubᚗcomᚋkhanakiaᚋentxᚋtestentpolyᚋentᚐVideo(ctx context.Context, sel ast.SelectionSet, v *ent.Video) graphql.Marshaler {
+func (ec *executionContext) marshalOVideo2ᚖgithubᚗcomᚋubgoᚋentxᚋtestentpolyᚋentᚐVideo(ctx context.Context, sel ast.SelectionSet, v *ent.Video) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}

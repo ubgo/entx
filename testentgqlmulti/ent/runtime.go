@@ -5,10 +5,10 @@ package ent
 import (
 	"time"
 
-	"github.com/khanakia/entx/testentgqlmulti/ent/chatbot"
-	"github.com/khanakia/entx/testentgqlmulti/ent/post"
-	"github.com/khanakia/entx/testentgqlmulti/ent/user"
-	"github.com/khanakia/entx/testentgqlmulti/schema"
+	"github.com/ubgo/entx/testentgqlmulti/ent/chatbot"
+	"github.com/ubgo/entx/testentgqlmulti/ent/post"
+	"github.com/ubgo/entx/testentgqlmulti/ent/user"
+	"github.com/ubgo/entx/testentgqlmulti/schema"
 )
 
 // The init function reads all schema descriptors with runtime code

@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/khanakia/entx/entpoly/examples/basic/ent"
+	"github.com/ubgo/entx/entpoly/examples/basic/ent"
 )
 
 // The CommentFunc type is an adapter to allow the use of ordinary

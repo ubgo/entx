@@ -5,7 +5,7 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/schema"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/entgqlmulti"
+	"github.com/ubgo/entx/entgqlmulti"
 )
 
 // Chatbot exercises multi-target per API: two GraphQL types ("Chatbot" and

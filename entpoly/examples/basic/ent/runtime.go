@@ -5,10 +5,10 @@ package ent
 import (
 	"time"
 
-	"github.com/khanakia/entx/entpoly/examples/basic/ent/post"
-	"github.com/khanakia/entx/entpoly/examples/basic/ent/taggable"
-	"github.com/khanakia/entx/entpoly/examples/basic/ent/video"
-	"github.com/khanakia/entx/entpoly/examples/basic/schema"
+	"github.com/ubgo/entx/entpoly/examples/basic/ent/post"
+	"github.com/ubgo/entx/entpoly/examples/basic/ent/taggable"
+	"github.com/ubgo/entx/entpoly/examples/basic/ent/video"
+	"github.com/ubgo/entx/entpoly/examples/basic/schema"
 )
 
 // The init function reads all schema descriptors with runtime code

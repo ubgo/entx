@@ -9,12 +9,12 @@ import (
 	"strconv"
 
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/testenttui/ent"
-	entComment "github.com/khanakia/entx/testenttui/ent/comment"
-	entPost "github.com/khanakia/entx/testenttui/ent/post"
-	entUser "github.com/khanakia/entx/testenttui/ent/user"
+	"github.com/ubgo/entx/testenttui/ent"
+	entComment "github.com/ubgo/entx/testenttui/ent/comment"
+	entPost "github.com/ubgo/entx/testenttui/ent/post"
+	entUser "github.com/ubgo/entx/testenttui/ent/user"
 
-	"github.com/khanakia/entx/enttui/runtime"
+	"github.com/ubgo/entx/enttui/runtime"
 )
 
 // registerComment wires *ent.Comment into the enttui runtime.

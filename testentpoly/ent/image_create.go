@@ -10,7 +10,7 @@ import (
 
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/testentpoly/ent/image"
+	"github.com/ubgo/entx/testentpoly/ent/image"
 )
 
 // ImageCreate is the builder for creating a Image entity.

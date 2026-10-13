@@ -255,7 +255,7 @@ func Generate(opts Options) error {
 		return fmt.Errorf("enttui/codegen: OutDir is required")
 	}
 	if opts.Package == "" {
-		opts.Package = "github.com/khanakia/entx/enttui"
+		opts.Package = "github.com/ubgo/entx/enttui"
 	}
 	if opts.EntPkgPath == "" {
 		opts.EntPkgPath = "dbent/gen/ent"

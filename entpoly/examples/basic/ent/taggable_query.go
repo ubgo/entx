@@ -11,8 +11,8 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/entpoly/examples/basic/ent/predicate"
-	"github.com/khanakia/entx/entpoly/examples/basic/ent/taggable"
+	"github.com/ubgo/entx/entpoly/examples/basic/ent/predicate"
+	"github.com/ubgo/entx/entpoly/examples/basic/ent/taggable"
 )
 
 // TaggableQuery is the builder for querying Taggable entities.

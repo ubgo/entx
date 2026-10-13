@@ -12,9 +12,9 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
-	"github.com/khanakia/entx/entpoly/examples/uuid/ent/annotation"
-	"github.com/khanakia/entx/entpoly/examples/uuid/ent/document"
-	"github.com/khanakia/entx/entpoly/examples/uuid/ent/report"
+	"github.com/ubgo/entx/entpoly/examples/uuid/ent/annotation"
+	"github.com/ubgo/entx/entpoly/examples/uuid/ent/document"
+	"github.com/ubgo/entx/entpoly/examples/uuid/ent/report"
 )
 
 // ent aliases to avoid import conflicts in user's code.

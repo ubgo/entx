@@ -8,7 +8,7 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/khanakia/entx/testent/ent/article"
+	"github.com/ubgo/entx/testent/ent/article"
 )
 
 // Article is the model entity for the Article schema.

@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/khanakia/entx/testentgqlmulti/ent"
+	"github.com/ubgo/entx/testentgqlmulti/ent"
 )
 
 // The ChatbotFunc type is an adapter to allow the use of ordinary

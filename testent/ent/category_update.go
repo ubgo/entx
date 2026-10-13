@@ -10,9 +10,9 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/testent/ent/category"
-	"github.com/khanakia/entx/testent/ent/post"
-	"github.com/khanakia/entx/testent/ent/predicate"
+	"github.com/ubgo/entx/testent/ent/category"
+	"github.com/ubgo/entx/testent/ent/post"
+	"github.com/ubgo/entx/testent/ent/predicate"
 )
 
 // CategoryUpdate is the builder for updating Category entities.

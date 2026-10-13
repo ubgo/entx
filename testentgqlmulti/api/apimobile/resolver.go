@@ -1,6 +1,6 @@
 package apimobile
 
-import "github.com/khanakia/entx/testentgqlmulti/ent"
+import "github.com/ubgo/entx/testentgqlmulti/ent"
 
 // Resolver carries the ent.Client for all generated resolvers.
 type Resolver struct {

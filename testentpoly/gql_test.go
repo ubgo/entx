@@ -14,7 +14,7 @@ import (
 	"github.com/vektah/gqlparser/v2"
 	"github.com/vektah/gqlparser/v2/ast"
 
-	"github.com/khanakia/entx/testentpoly/ent"
+	"github.com/ubgo/entx/testentpoly/ent"
 )
 
 // TestGQL_UnionQueryResolvesParent — scenario 18. Single union query

@@ -6,10 +6,10 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/khanakia/entx/testenttui/ent"
-	entUser "github.com/khanakia/entx/testenttui/ent/user"
+	"github.com/ubgo/entx/testenttui/ent"
+	entUser "github.com/ubgo/entx/testenttui/ent/user"
 
-	"github.com/khanakia/entx/enttui/runtime"
+	"github.com/ubgo/entx/enttui/runtime"
 )
 
 // registerUser wires *ent.User into the enttui runtime.

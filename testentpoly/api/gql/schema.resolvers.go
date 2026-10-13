@@ -10,8 +10,7 @@ import (
 	"strconv"
 
 	"github.com/google/uuid"
-
-	"github.com/khanakia/entx/testentpoly/ent"
+	"github.com/ubgo/entx/testentpoly/ent"
 )
 
 // Commentable is the resolver for the commentable field. Forwards to the

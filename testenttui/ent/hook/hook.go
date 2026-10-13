@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/khanakia/entx/testenttui/ent"
+	"github.com/ubgo/entx/testenttui/ent"
 )
 
 // The CommentFunc type is an adapter to allow the use of ordinary

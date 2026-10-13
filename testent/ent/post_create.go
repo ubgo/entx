@@ -9,12 +9,12 @@ import (
 
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/khanakia/entx/testent/ent/category"
-	"github.com/khanakia/entx/testent/ent/comment"
-	"github.com/khanakia/entx/testent/ent/post"
-	"github.com/khanakia/entx/testent/ent/posttag"
-	"github.com/khanakia/entx/testent/ent/tag"
-	"github.com/khanakia/entx/testent/ent/user"
+	"github.com/ubgo/entx/testent/ent/category"
+	"github.com/ubgo/entx/testent/ent/comment"
+	"github.com/ubgo/entx/testent/ent/post"
+	"github.com/ubgo/entx/testent/ent/posttag"
+	"github.com/ubgo/entx/testent/ent/tag"
+	"github.com/ubgo/entx/testent/ent/user"
 )
 
 // PostCreate is the builder for creating a Post entity.
